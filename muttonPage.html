@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Meat Online - Order Goat Mutton & Lamb Mutton Online - Licious licious.in
+    </title>
+
+    <!-- lato font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- roboto font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- sorce sans pro -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+
+
+    <style>
+      * {
+        font-family: "Lato", sans-serif;
+      }
+
+      .main-container {
+        height: auto;
+        width: 80%;
+        margin: auto;
+        margin-top: 250px;
+      }
+
+      .upper-line {
+        display: flex;
+        margin: 10px;
+        justify-content: flex-start;
+        gap: 10px;
+        align-items: center;
+      }
+
+      .upper-line > div {
+        width: 220px;
+        display: flex;
+        justify-content: center;
+        
+      }
+
+      .upper-line > h1 {
+        color: #585858;
+        margin-right: 10px;
+        margin-left: -1%;
+      }
+
+      .upper-line > div > img {
+        width: 50px;
+        height: 50px;
+      }
+      .upper-line > div > p {
+        border: 1px solid #585858;
+        font-size: 14.5px;
+        width: auto;
+        height: 30px;
+        margin: auto;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-align: center;
+        border-radius: 5px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+
+      #after {
+        color: #585858;
+        font-size: 30px;
+      }
+
+      #upper-hrline{
+          border: 1px solid #585858;
+      }
+
+      #express{
+          font-size: 14px;
+      }
+
+      /* card container */
+
+      #card-container{
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-template-rows:repeat(10, 450px);
+          gap: 15px;
+          /* border: 1px solid grey; */
+      }
+
+      #card-container > div{
+          border: 1px solid red;
+          border-radius: 10px;
+          display: grid;
+
+      }
+
+      #add-to-cart{
+          text-transform: uppercase;
+          width: 100px;
+          height: 36px;
+          background-color: red;
+          color: white;
+          font-size: 11px;
+          font-weight: bold;
+          border-radius: 5px;
+      }
+
+      
+
+      #card-container > div > img{
+          width: 100%;
+          height: 240px;
+          border: 1px solid blue;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="upper-line">
+        <h1>Mutton</h1>
+        <div>
+          <img
+            src="https://d2407na1z3fc0t.cloudfront.net/USP/usp_58e78c6b83b3c"
+          />
+          <p>Prime-grade Meats</p>
+        </div>
+        <p id="after">|</p>
+        <div>
+          <img
+            src="https://d2407na1z3fc0t.cloudfront.net/USP/usp_58e78c97c079f"
+          />
+          <p>Humane pasture raised</p>
+        </div>
+        <p id="after">|</p>
+        <div>
+          <img
+            src="https://d2407na1z3fc0t.cloudfront.net/USP/usp_58e792ad92488"
+          />
+          <p>Expertly carved pieces</p>
+        </div>
+      </div>
+      <div id="express">
+          <p>Express</p>
+      </div>
+      <hr id="upper-hrline">
+
+      <div id="card-container">
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+        
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+        
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+        
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+        
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+        
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+ 
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+        
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+        
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+
+        <div>
+            <img src="" alt="">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="add-to-cart">add to cart</button></div>
+            <div></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
