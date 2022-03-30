@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feast Specials</title>
+    <!-- <link rel="stylesheet" href="./style/feast.css"> -->
+    <style>
+
+        #upper-content{
+            margin: auto;
+            margin-top: 200px;
+            width: 80%;
+            height: 150px;
+        }
+
+        #express-deli{
+            border: 1px solid black;
+            width: 100px;
+            height: 20px;
+            background-color: white;
+            color: black;
+            text-align: center;
+            padding-top: 5px;
+        }
+
+        #main-container{
+            width: 80%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            /* grid-template-rows: repeat(12, 450px); */
+            gap: 25px;
+        }
+
+        .price-line{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .net-wt-line{
+            display: flex;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+<body>
+    <div id="upper-content">
+        <p>Home</p>
+        <h1>Feast Specials</h1>
+        <div id="express-deli">Express Delivery</div>
+    </div>
+    <div id="main-container"></div>
+</body>
+</html>
+<script>
+    feastData = [
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+
+        {
+            image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+            item_name : "Crispy Chicken Wings | Ready to Cook",
+            item_des : "Chicken wings marinated in spices & coated in panko cru...",
+            net_wt : "225gms",
+            pieces : "7-8",
+            current_price : "₹99",
+            mrp : "₹119",
+            discount : "17% OFF",
+            delivery_time : "Tommorow 8 AM - 10 AM",
+        },
+    ]; 
+        
+        feastData.map(function(elem){
+            var card = document.createElement("div")
+            card.style.boxShadow = "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px" ; 
+            card.style.borderRadius = "10px" ;
+            // card.style.padding = "15px";
+
+            var img = document.createElement("img");
+            img.src = elem.image_url ;
+            img.style.width = "100%";
+            img.style.height = "240px"
+            img.style.borderRadius = "10px 10px 0px 0px ";
+
+            var itemName = document.createElement("p");
+            itemName.innerText = elem.item_name ;
+            itemName.style.fontWeight = "bold";
+            itemName.style.padding = "10px";
+            
+            var itemDes = document.createElement("p");
+            itemDes.innerText = elem.item_des ;
+            itemDes.style.padding = "10px";
+
+            var netWt = document.createElement("p");
+            netWt.innerText = elem.net_wt ;
+
+            var pieces = document.createElement("p");
+            pieces.innerText = elem.pieces ;
+
+            var net_wt_line = document.createElement("div")
+            net_wt_line.className = "net-wt-line";
+            net_wt_line.style.fontWeight = "bold";
+
+            var currentPrice = document.createElement("p");
+            currentPrice.innerText = elem.current_price ;
+
+            var mrp = document.createElement("p");
+            mrp.innerText = elem.mrp ;
+            mrp.style.textDecoration = "line-through";
+
+            var discount = document.createElement("p");
+            discount.innerText = elem.discount ;
+
+            var price_line = document.createElement("div")
+            price_line.className = "price-line";
+
+            var cart_btn = document.createElement("button");
+            cart_btn.innerText = "Add to Cart";
+            cart_btn.style.backgroundColor = "red";
+            cart_btn.style.color = "white";
+            cart_btn.style.borderRadius = "5px"
+
+            var d_time = document.createElement("p");
+            d_time.discount = elem.delivery_time ;
+
+            net_wt_line.append(netWt, pieces);
+            price_line.append( currentPrice, mrp, discount, cart_btn);
+            card.append(img, itemName, itemDes, net_wt_line, price_line, d_time);
+            document.querySelector("#main-container").append(card);
+
+        })
+</script>
