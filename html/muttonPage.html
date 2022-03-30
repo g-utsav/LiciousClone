@@ -8,6 +8,11 @@
       Meat Online - Order Goat Mutton & Lamb Mutton Online - Licious licious.in
     </title>
 
+    <!-- google font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
     <!-- lato font -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -35,16 +40,22 @@
       rel="stylesheet"
     />
 
-
     <style>
       * {
         font-family: "Lato", sans-serif;
-        background-color: #f7f6f6;
+        /* background-color: #f7f6f6; */
+
+      }
+
+      body{
+        background-color: whitesmoke;
+
       }
 
       .main-container {
         height: auto;
         width: 80%;
+        /* background-color: whitesmoke; */
         margin: auto;
         margin-top: 250px;
       }
@@ -61,7 +72,6 @@
         width: 220px;
         display: flex;
         justify-content: center;
-        
       }
 
       .upper-line > h1 {
@@ -80,7 +90,7 @@
         width: auto;
         height: 30px;
         margin: auto;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: "Source Sans Pro", sans-serif;
         text-align: center;
         border-radius: 5px;
         padding-top: 10px;
@@ -93,72 +103,204 @@
         font-size: 30px;
       }
 
-      #upper-hrline{
-          border: 1px solid #585858;
+      #upper-hrline {
+        border: 1px solid #585858;
       }
 
-      #express{
-          font-size: 14px;
+      #express {
+        /* border: 1px solid red; */
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      #deli-img{
+        width: 30px;
+        height: 30px;
+      }
+
+      #express-p{
+        /* border: 1px solid red; */
+      }
+
+      #tog{
+        /* border: 1px solid green; */
+        
+      }
+
+      input.toggle-round {
+        display:none;
+      }
+      input.toggle-round + label {
+        display: block;
+        position: relative;
+        cursor: pointer;
+      }
+
+      input.toggle-round + label {
+        /* padding: 1px; */
+        width: 20px;
+        height: 10px;
+        background-color: #ddd;
+        border-radius: 50px;
+        border: 1px solid #ccc;
+      }
+      input.toggle-round + label:after {
+        display: block;
+        position: absolute;
+        content: "";
+        width: 10px; height: 10px;
+        background-color: white;
+        border-radius: 100%;
+        box-shadow: 0 2px 3px #888;
+        transition: margin 0.5s;
+      }
+      input.toggle-round:checked + label {
+        background-color: red;
+      }
+      input.toggle-round:checked + label:after {
+        margin-left: 10px;
       }
 
       /* card container */
 
-      #card-container{
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          grid-template-rows:repeat(10, 450px);
-          gap: 15px;
-          /* border: 1px solid grey; */
-      }
-
-      #card-container > div{
-          border: 1px solid red;
-          border-radius: 10px;
-          display: grid;
+      #card-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(7, 450px);
+        gap: 25px;
+        margin-top: 20px;
+        /* border: 1px solid grey; */
 
       }
 
-      #add-to-cart{
-          text-transform: uppercase;
-          width: 100px;
-          height: 36px;
-          background-color: red;
-          color: white;
-          font-size: 11px;
-          font-weight: bold;
-          border-radius: 5px;
+      #card-container > div {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        /* border: 1px solid red; */
+        border-radius: 10px;
+        display: grid;
       }
 
-      #card-container > div > img{
-          width: 100%;
-          height: 240px;
-          border: 1px solid blue;
+      #add-to-cart {
+        text-transform: uppercase;
+        width: 100px;
+        height: 36px;
+        background-color: #e41d36;
+        color: white;
+        font-size: 11px;
+        font-weight: bold;
+        border-radius: 5px;
       }
 
-      #about-mutton{
+      #card-container > div > img {
         width: 100%;
+        height: 240px;
+        
+        border-radius: 10px 10px 0px 0px ;
+
+        /* border: 1px solid blue; */
+      }
+
+      .item-name{
+        padding: 10px;
+        font-weight: bold;
+        
+      }
+
+      .item-des{
+        margin-top: -30px;
+        padding: 10px;
+      }
+
+      .net-gross{
+        font-weight: bold;
+        margin-top: -30px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+        padding: 10px;
+      }
+
+      .price-line{
+        margin-top: -30px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .prices{
+        display: flex;
+        gap: 20px;
+      }
+
+      .last-line-card{
+        text-align: center;
+      }
+
+      #about-mutton {
+        
+        width: 100%;
+        height: auto;
         background-color: white;
         display: flex;
-        border: 1px solid yellowgreen;
+        /* border: 1px solid yellowgreen; */
         margin: auto;
+        margin-top: 20px;
         justify-content: center;
+        line-height: 20px;
       }
 
-      #left-pane{
+      #left-pane {
+        background-color: white;
         width: 900px;
-        height: 2000px;
-        border: 1px solid red;
-        font-family:'Roboto', sans-serif;
+        /* border: 1px solid red; */
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        padding: 10px;
+
+      }
+
+      #right-pane {
+        background-color: white;
+        width: 450px;
+        /* border: 1px solid blue; */
+        font-family: "Roboto", sans-serif;
         font-size: 14px;
       }
 
-      #right-pane{
-        width: 440px;
-        height: 2000px;
-        border: 1px solid blue;
-        font-family:'Roboto', sans-serif;
-        font-size: 14px;
+      .list {
+        margin-top: 10px;
+        margin-left: 0px;
       }
+
+      li {
+        margin-top: 10px;
+        margin-left: -20px;
+      }
+      .no-style {
+        list-style-type: none;
+        margin-left: -40px;
+        margin-top: 10px;
+      }
+
+      .faq-des {
+        margin-top: 10px;
+      }
+
+      table{
+        margin: auto;
+      }
+
+      th, td{
+        padding: 10px 10px 10px 20px;
+        border-bottom: 1px solid black;
+      }
+
+      .last-line{
+        text-align: center;
+      }
+
       
     </style>
   </head>
@@ -188,290 +330,708 @@
         </div>
       </div>
       <div id="express">
-          <p>Express</p>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn3.iconfinder.com%2Fdata%2Ficons%2Ftransportation-soft%2F512%2Ftruck_delivery_logistics_transportation_shipping_deliver_shipment_v3-512.png&f=1&nofb=1" alt="" id="deli-img">
+        <div id="express-p">
+        <p>Express</p></div>
+        <div id="tog"> <input id="cb_id" class="toggle-round" type="checkbox">
+          <label for="cb_id"></label></div>
+
+        
       </div>
-      <hr id="upper-hrline">
+      <hr id="upper-hrline" />
 
       <div id="card-container">
         <div>
-            <img src="https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_7olkuhu3ohb/12/prod_display_image/1634748544.8435--2021-10-2022:19:04--1818" alt="">
-            <div><p>Lean Goat Curry Cut - Small pieces </p></div>
-            <div><p>Trimmed bone-in & boneless pieces</p></div>
-            <div>
-              <p>Net wt: 450gms</p>
-              <p>Gross: 979gms</p>
+          <img
+            src="https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_7olkuhu3ohb/12/prod_display_image/1634748544.8435--2021-10-2022:19:04--1818"
+            alt=""
+          />
+          <div class="item-name"><p>Lean Goat Curry Cut - Small pieces</p></div>
+          <div class="item-des"><p>Trimmed bone-in & boneless pieces</p></div>
+          <div class="net-gross">
+            <p>Net wt: 450gms</p>
+            <p>Gross: 979gms</p>
+          </div>
+          <div class="price-line">
+            <div class="prices">
+            <p>₹412</p>
+            <p>MRP: <strike>₹495</strike></p>
+            <p>5% OFF</p>
             </div>
-            <div>
-              <p>412</p>
-              <p></p>
-              <p></p>
-              <button id="add-to-cart">add to cart</button></div>
-            <div></div>
+            <button id="add-to-cart">add to cart</button>
+          </div>
+          <div class="last-line-card"><img src="" alt=""> Today in 90 min</div>
         </div>
 
         <div>
-            <img src="" alt="">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><button id="add-to-cart">add to cart</button></div>
-            <div></div>
+          <img
+          src="https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_7olkuhu3ohb/12/prod_display_image/1634748544.8435--2021-10-2022:19:04--1818"
+          alt=""
+        />
+        <div class="item-name"><p>Lean Goat Curry Cut - Small pieces</p></div>
+        <div class="item-des"><p>Trimmed bone-in & boneless pieces</p></div>
+        <div class="net-gross">
+          <p>Net wt: 450gms</p>
+          <p>Gross: 979gms</p>
+        </div>
+        <div class="price-line">
+          <div class="prices">
+          <p>₹412</p>
+          <p>MRP: <strike>₹495</strike></p>
+          <p>5% OFF</p>
+          </div>
+          <button id="add-to-cart">add to cart</button>
+        </div>
+        <div class="last-line-card"><img src="" alt=""> Today in 90 min</div>
         </div>
 
         <div>
-            <img src="" alt="">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><button id="add-to-cart">add to cart</button></div>
-            <div></div>
+          <img
+          src="https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_7olkuhu3ohb/12/prod_display_image/1634748544.8435--2021-10-2022:19:04--1818"
+          alt=""
+        />
+        <div class="item-name"><p>Lean Goat Curry Cut - Small pieces</p></div>
+        <div class="item-des"><p>Trimmed bone-in & boneless pieces</p></div>
+        <div class="net-gross">
+          <p>Net wt: 450gms</p>
+          <p>Gross: 979gms</p>
+        </div>
+        <div class="price-line">
+          <div class="prices">
+          <p>₹412</p>
+          <p>MRP: <strike>₹495</strike></p>
+          <p>5% OFF</p>
+          </div>
+          <button id="add-to-cart">add to cart</button>
+        </div>
+        <div class="last-line-card"><img src="" alt=""> Today in 90 min</div>
         </div>
 
         <div>
-            <img src="" alt="">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><button id="add-to-cart">add to cart</button></div>
-            <div></div>
+          <img
+          src="https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_7olkuhu3ohb/12/prod_display_image/1634748544.8435--2021-10-2022:19:04--1818"
+          alt=""
+        />
+        <div class="item-name"><p>Lean Goat Curry Cut - Small pieces</p></div>
+        <div class="item-des"><p>Trimmed bone-in & boneless pieces</p></div>
+        <div class="net-gross">
+          <p>Net wt: 450gms</p>
+          <p>Gross: 979gms</p>
+        </div>
+        <div class="price-line">
+          <div class="prices">
+          <p>₹412</p>
+          <p>MRP: <strike>₹495</strike></p>
+          <p>5% OFF</p>
+          </div>
+          <button id="add-to-cart">add to cart</button>
+        </div>
+        <div class="last-line-card"><img src="" alt=""> Today in 90 min</div>
         </div>
 
         <div>
-            <img src="" alt="">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><button id="add-to-cart">add to cart</button></div>
-            <div></div>
+          <img
+          src="https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_7olkuhu3ohb/12/prod_display_image/1634748544.8435--2021-10-2022:19:04--1818"
+          alt=""
+        />
+        <div class="item-name"><p>Lean Goat Curry Cut - Small pieces</p></div>
+        <div class="item-des"><p>Trimmed bone-in & boneless pieces</p></div>
+        <div class="net-gross">
+          <p>Net wt: 450gms</p>
+          <p>Gross: 979gms</p>
+        </div>
+        <div class="price-line">
+          <div class="prices">
+          <p>₹412</p>
+          <p>MRP: <strike>₹495</strike></p>
+          <p>5% OFF</p>
+          </div>
+          <button id="add-to-cart">add to cart</button>
+        </div>
+        <div class="last-line-card"><img src="" alt=""> Today in 90 min</div>
         </div>
 
         <div>
-            <img src="" alt="">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><button id="add-to-cart">add to cart</button></div>
-            <div></div>
+          <img
+          src="https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_7olkuhu3ohb/12/prod_display_image/1634748544.8435--2021-10-2022:19:04--1818"
+          alt=""
+        />
+        <div class="item-name"><p>Lean Goat Curry Cut - Small pieces</p></div>
+        <div class="item-des"><p>Trimmed bone-in & boneless pieces</p></div>
+        <div class="net-gross">
+          <p>Net wt: 450gms</p>
+          <p>Gross: 979gms</p>
         </div>
+        <div class="price-line">
+          <div class="prices">
+          <p>₹412</p>
+          <p>MRP: <strike>₹495</strike></p>
+          <p>5% OFF</p>
+          </div>
+          <button id="add-to-cart">add to cart</button>
+        </div>
+        <div class="last-line-card"><img src="" alt=""> Today in 90 min</div>
+        </div>
+
+        <div>
+          <img
+          src="https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_7olkuhu3ohb/12/prod_display_image/1634748544.8435--2021-10-2022:19:04--1818"
+          alt=""
+        />
+        <div class="item-name"><p>Lean Goat Curry Cut - Small pieces</p></div>
+        <div class="item-des"><p>Trimmed bone-in & boneless pieces</p></div>
+        <div class="net-gross">
+          <p>Net wt: 450gms</p>
+          <p>Gross: 979gms</p>
+        </div>
+        <div class="price-line">
+          <div class="prices">
+          <p>₹412</p>
+          <p>MRP: <strike>₹495</strike></p>
+          <p>5% OFF</p>
+          </div>
+          <button id="add-to-cart">add to cart</button>
+        </div>
+        <div class="last-line-card"><img src="" alt=""> Today in 90 min</div>
+        </div>
+
+        <div>
+          <img
+          src="https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_7olkuhu3ohb/12/prod_display_image/1634748544.8435--2021-10-2022:19:04--1818"
+          alt=""
+        />
+        <div class="item-name"><p>Lean Goat Curry Cut - Small pieces</p></div>
+        <div class="item-des"><p>Trimmed bone-in & boneless pieces</p></div>
+        <div class="net-gross">
+          <p>Net wt: 450gms</p>
+          <p>Gross: 979gms</p>
+        </div>
+        <div class="price-line">
+          <div class="prices">
+          <p>₹412</p>
+          <p>MRP: <strike>₹495</strike></p>
+          <p>5% OFF</p>
+          </div>
+          <button id="add-to-cart">add to cart</button>
+        </div>
+        <div class="last-line-card"><img src="" alt=""> Today in 90 min</div>
+        </div>
+
+        <div>
+          <img
+          src="https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_7olkuhu3ohb/12/prod_display_image/1634748544.8435--2021-10-2022:19:04--1818"
+          alt=""
+        />
+        <div class="item-name"><p>Lean Goat Curry Cut - Small pieces</p></div>
+        <div class="item-des"><p>Trimmed bone-in & boneless pieces</p></div>
+        <div class="net-gross">
+          <p>Net wt: 450gms</p>
+          <p>Gross: 979gms</p>
+        </div>
+        <div class="price-line">
+          <div class="prices">
+          <p>₹412</p>
+          <p>MRP: <strike>₹495</strike></p>
+          <p>5% OFF</p>
+          </div>
+          <button id="add-to-cart">add to cart</button>
+        </div>
+        <div class="last-line-card"><img src="" alt=""> Today in 90 min</div>
+        </div>
+
+        <div>
+          <img
+          src="https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_7olkuhu3ohb/12/prod_display_image/1634748544.8435--2021-10-2022:19:04--1818"
+          alt=""
+        />
+        <div class="item-name"><p>Lean Goat Curry Cut - Small pieces</p></div>
+        <div class="item-des"><p>Trimmed bone-in & boneless pieces</p></div>
+        <div class="net-gross">
+          <p>Net wt: 450gms</p>
+          <p>Gross: 979gms</p>
+        </div>
+        <div class="price-line">
+          <div class="prices">
+          <p>₹412</p>
+          <p>MRP: <strike>₹495</strike></p>
+          <p>5% OFF</p>
+          </div>
+          <button id="add-to-cart">add to cart</button>
+        </div>
+        <div class="last-line-card"><img src="" alt=""> Today in 90 min</div>
+        </div>
+
+        <div>
+          <img
+          src="https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_7olkuhu3ohb/12/prod_display_image/1634748544.8435--2021-10-2022:19:04--1818"
+          alt=""
+        />
+        <div class="item-name"><p>Lean Goat Curry Cut - Small pieces</p></div>
+        <div class="item-des"><p>Trimmed bone-in & boneless pieces</p></div>
+        <div class="net-gross">
+          <p>Net wt: 450gms</p>
+          <p>Gross: 979gms</p>
+        </div>
+        <div class="price-line">
+          <div class="prices">
+          <p>₹412</p>
+          <p>MRP: <strike>₹495</strike></p>
+          <p>5% OFF</p>
+          </div>
+          <button id="add-to-cart">add to cart</button>
+        </div>
+        <div class="last-line-card"><img src="" alt=""> Today in 90 min</div>
+        </div>
+
         
         <div>
-            <img src="" alt="">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><button id="add-to-cart">add to cart</button></div>
-            <div></div>
+          <img
+          src="https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_7olkuhu3ohb/12/prod_display_image/1634748544.8435--2021-10-2022:19:04--1818"
+          alt=""
+        />
+        <div class="item-name"><p>Lean Goat Curry Cut - Small pieces</p></div>
+        <div class="item-des"><p>Trimmed bone-in & boneless pieces</p></div>
+        <div class="net-gross">
+          <p>Net wt: 450gms</p>
+          <p>Gross: 979gms</p>
         </div>
-        
-        <div>
-            <img src="" alt="">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><button id="add-to-cart">add to cart</button></div>
-            <div></div>
+        <div class="price-line">
+          <div class="prices">
+          <p>₹412</p>
+          <p>MRP: <strike>₹495</strike></p>
+          <p>5% OFF</p>
+          </div>
+          <button id="add-to-cart">add to cart</button>
         </div>
-
-        <div>
-            <img src="" alt="">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><button id="add-to-cart">add to cart</button></div>
-            <div></div>
+        <div class="last-line-card"><img src="" alt=""> Today in 90 min</div>
         </div>
 
         <div>
-            <img src="" alt="">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><button id="add-to-cart">add to cart</button></div>
-            <div></div>
+          <img
+          src="https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_7olkuhu3ohb/12/prod_display_image/1634748544.8435--2021-10-2022:19:04--1818"
+          alt=""
+        />
+        <div class="item-name"><p>Lean Goat Curry Cut - Small pieces</p></div>
+        <div class="item-des"><p>Trimmed bone-in & boneless pieces</p></div>
+        <div class="net-gross">
+          <p>Net wt: 450gms</p>
+          <p>Gross: 979gms</p>
+        </div>
+        <div class="price-line">
+          <div class="prices">
+          <p>₹412</p>
+          <p>MRP: <strike>₹495</strike></p>
+          <p>5% OFF</p>
+          </div>
+          <button id="add-to-cart">add to cart</button>
+        </div>
+        <div class="last-line-card"><img src="" alt=""> Today in 90 min</div>
         </div>
 
         <div>
-            <img src="" alt="">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><button id="add-to-cart">add to cart</button></div>
-            <div></div>
+          <img
+          src="https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_7olkuhu3ohb/12/prod_display_image/1634748544.8435--2021-10-2022:19:04--1818"
+          alt=""
+        />
+        <div class="item-name"><p>Lean Goat Curry Cut - Small pieces</p></div>
+        <div class="item-des"><p>Trimmed bone-in & boneless pieces</p></div>
+        <div class="net-gross">
+          <p>Net wt: 450gms</p>
+          <p>Gross: 979gms</p>
+        </div>
+        <div class="price-line">
+          <div class="prices">
+          <p>₹412</p>
+          <p>MRP: <strike>₹495</strike></p>
+          <p>5% OFF</p>
+          </div>
+          <button id="add-to-cart">add to cart</button>
+        </div>
+        <div class="last-line-card"><img src="" alt=""> Today in 90 min</div>
         </div>
 
         <div>
-            <img src="" alt="">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><button id="add-to-cart">add to cart</button></div>
-            <div></div>
+          <img
+          src="https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_7olkuhu3ohb/12/prod_display_image/1634748544.8435--2021-10-2022:19:04--1818"
+          alt=""
+        />
+        <div class="item-name"><p>Lean Goat Curry Cut - Small pieces</p></div>
+        <div class="item-des"><p>Trimmed bone-in & boneless pieces</p></div>
+        <div class="net-gross">
+          <p>Net wt: 450gms</p>
+          <p>Gross: 979gms</p>
+        </div>
+        <div class="price-line">
+          <div class="prices">
+          <p>₹412</p>
+          <p>MRP: <strike>₹495</strike></p>
+          <p>5% OFF</p>
+          </div>
+          <button id="add-to-cart">add to cart</button>
+        </div>
+        <div class="last-line-card"><img src="" alt=""> Today in 90 min</div>
         </div>
 
         <div>
-            <img src="" alt="">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><button id="add-to-cart">add to cart</button></div>
-            <div></div>
+          <img
+          src="https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_7olkuhu3ohb/12/prod_display_image/1634748544.8435--2021-10-2022:19:04--1818"
+          alt=""
+        />
+        <div class="item-name"><p>Lean Goat Curry Cut - Small pieces</p></div>
+        <div class="item-des"><p>Trimmed bone-in & boneless pieces</p></div>
+        <div class="net-gross">
+          <p>Net wt: 450gms</p>
+          <p>Gross: 979gms</p>
+        </div>
+        <div class="price-line">
+          <div class="prices">
+          <p>₹412</p>
+          <p>MRP: <strike>₹495</strike></p>
+          <p>5% OFF</p>
+          </div>
+          <button id="add-to-cart">add to cart</button>
+        </div>
+        <div class="last-line-card"><img src="" alt=""> Today in 90 min</div>
         </div>
 
         <div>
-            <img src="" alt="">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><button id="add-to-cart">add to cart</button></div>
-            <div></div>
+          <img
+          src="https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_7olkuhu3ohb/12/prod_display_image/1634748544.8435--2021-10-2022:19:04--1818"
+          alt=""
+        />
+        <div class="item-name"><p>Lean Goat Curry Cut - Small pieces</p></div>
+        <div class="item-des"><p>Trimmed bone-in & boneless pieces</p></div>
+        <div class="net-gross">
+          <p>Net wt: 450gms</p>
+          <p>Gross: 979gms</p>
         </div>
-        
-        <div>
-            <img src="" alt="">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><button id="add-to-cart">add to cart</button></div>
-            <div></div>
+        <div class="price-line">
+          <div class="prices">
+          <p>₹412</p>
+          <p>MRP: <strike>₹495</strike></p>
+          <p>5% OFF</p>
+          </div>
+          <button id="add-to-cart">add to cart</button>
         </div>
-
-        <div>
-            <img src="" alt="">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><button id="add-to-cart">add to cart</button></div>
-            <div></div>
-        </div>
-        
-        <div>
-            <img src="" alt="">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><button id="add-to-cart">add to cart</button></div>
-            <div></div>
+        <div class="last-line-card"><img src="" alt=""> Today in 90 min</div>
         </div>
 
         <div>
-            <img src="" alt="">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><button id="add-to-cart">add to cart</button></div>
-            <div></div>
+          <img
+          src="https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_7olkuhu3ohb/12/prod_display_image/1634748544.8435--2021-10-2022:19:04--1818"
+          alt=""
+        />
+        <div class="item-name"><p>Lean Goat Curry Cut - Small pieces</p></div>
+        <div class="item-des"><p>Trimmed bone-in & boneless pieces</p></div>
+        <div class="net-gross">
+          <p>Net wt: 450gms</p>
+          <p>Gross: 979gms</p>
+        </div>
+        <div class="price-line">
+          <div class="prices">
+          <p>₹412</p>
+          <p>MRP: <strike>₹495</strike></p>
+          <p>5% OFF</p>
+          </div>
+          <button id="add-to-cart">add to cart</button>
+        </div>
+        <div class="last-line-card"><img src="" alt=""> Today in 90 min</div>
         </div>
 
         <div>
-            <img src="" alt="">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><button id="add-to-cart">add to cart</button></div>
-            <div></div>
+          <img
+          src="https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_7olkuhu3ohb/12/prod_display_image/1634748544.8435--2021-10-2022:19:04--1818"
+          alt=""
+        />
+        <div class="item-name"><p>Lean Goat Curry Cut - Small pieces</p></div>
+        <div class="item-des"><p>Trimmed bone-in & boneless pieces</p></div>
+        <div class="net-gross">
+          <p>Net wt: 450gms</p>
+          <p>Gross: 979gms</p>
         </div>
-        
-        <div>
-            <img src="" alt="">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><button id="add-to-cart">add to cart</button></div>
-            <div></div>
+        <div class="price-line">
+          <div class="prices">
+          <p>₹412</p>
+          <p>MRP: <strike>₹495</strike></p>
+          <p>5% OFF</p>
+          </div>
+          <button id="add-to-cart">add to cart</button>
         </div>
- 
-        <div>
-            <img src="" alt="">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><button id="add-to-cart">add to cart</button></div>
-            <div></div>
-        </div>
-        
-        <div>
-            <img src="" alt="">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><button id="add-to-cart">add to cart</button></div>
-            <div></div>
+        <div class="last-line-card"><img src="" alt=""> Today in 90 min</div>
         </div>
 
         <div>
-            <img src="" alt="">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><button id="add-to-cart">add to cart</button></div>
-            <div></div>
+          <img
+          src="https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_7olkuhu3ohb/12/prod_display_image/1634748544.8435--2021-10-2022:19:04--1818"
+          alt=""
+        />
+        <div class="item-name"><p>Lean Goat Curry Cut - Small pieces</p></div>
+        <div class="item-des"><p>Trimmed bone-in & boneless pieces</p></div>
+        <div class="net-gross">
+          <p>Net wt: 450gms</p>
+          <p>Gross: 979gms</p>
+        </div>
+        <div class="price-line">
+          <div class="prices">
+          <p>₹412</p>
+          <p>MRP: <strike>₹495</strike></p>
+          <p>5% OFF</p>
+          </div>
+          <button id="add-to-cart">add to cart</button>
+        </div>
+        <div class="last-line-card"><img src="" alt=""> Today in 90 min</div>
         </div>
 
         <div>
-            <img src="" alt="">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><button id="add-to-cart">add to cart</button></div>
-            <div></div>
+          <img
+          src="https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_7olkuhu3ohb/12/prod_display_image/1634748544.8435--2021-10-2022:19:04--1818"
+          alt=""
+        />
+        <div class="item-name"><p>Lean Goat Curry Cut - Small pieces</p></div>
+        <div class="item-des"><p>Trimmed bone-in & boneless pieces</p></div>
+        <div class="net-gross">
+          <p>Net wt: 450gms</p>
+          <p>Gross: 979gms</p>
         </div>
-
-        <div>
-            <img src="" alt="">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><button id="add-to-cart">add to cart</button></div>
-            <div></div>
+        <div class="price-line">
+          <div class="prices">
+          <p>₹412</p>
+          <p>MRP: <strike>₹495</strike></p>
+          <p>5% OFF</p>
+          </div>
+          <button id="add-to-cart">add to cart</button>
         </div>
-        
-        <div>
-            <img src="" alt="">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><button id="add-to-cart">add to cart</button></div>
-            <div></div>
-        </div>
-        <div>
-            <img src="" alt="">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><button id="add-to-cart">add to cart</button></div>
-            <div></div>
-        </div>
-
-        <div>
-            <img src="" alt="">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><button id="add-to-cart">add to cart</button></div>
-            <div></div>
-        </div>
+        <div class="last-line-card"><img src="" alt=""> Today in 90 min</div>
       </div>
-    </div>
-
+      </div>
     <div id="about-mutton">
       <div id="left-pane">
         <h3>About Licious Mutton</h3>
-        <p>There is nothing more tempting than a hot plate of delicious Mutton Masala or Hyderabadi Biryani. Mutton dishes are an integral part of Indian cuisine, with the flavoursome and tender meat being sourced from a lamb or a goat. As compared to other types of red meat, mutton contains a lower level of cholesterol and fat.</p>
         <p>
-          Mutton is used in mouth-watering delicacies like galouti kabab, mutton biryani, rogan josh, dum style mutton, seekh kebabs, keema and more. Not just contained to Indian dishes, continental meaty meals like lamb chops, lamb lasagne and spaghetti bolognaise are also mutton favorites. Loaded with essential nutrients like proteins and minerals, making mutton a part of your balanced diet is a great way to enjoy a hearty meal that’s packed with protein and flavour.
+          There is nothing more tempting than a hot plate of delicious Mutton
+          Masala or Hyderabadi Biryani. Mutton dishes are an integral part of
+          Indian cuisine, with the flavoursome and tender meat being sourced
+          from a lamb or a goat. As compared to other types of red meat, mutton
+          contains a lower level of cholesterol and fat.
         </p>
         <p>
-          At Licious, we love our mutton just as much as you do. So, we only give you the freshest and meatiest cuts of goat and lamb. Our experts carefully select the goats and lambs and practise artisanal butchery. Every portion is quality controlled, so no matter which cut you pick, rest assured it is the freshest, safest and of highest quality.
+          Mutton is used in mouth-watering delicacies like galouti kabab, mutton
+          biryani, rogan josh, dum style mutton, seekh kebabs, keema and more.
+          Not just contained to Indian dishes, continental meaty meals like lamb
+          chops, lamb lasagne and spaghetti bolognaise are also mutton
+          favorites. Loaded with essential nutrients like proteins and minerals,
+          making mutton a part of your balanced diet is a great way to enjoy a
+          hearty meal that’s packed with protein and flavour.
         </p>
         <p>
-          The wide range of Licious mutton products on offer include:
+          At Licious, we love our mutton just as much as you do. So, we only
+          give you the freshest and meatiest cuts of goat and lamb. Our experts
+          carefully select the goats and lambs and practise artisanal butchery.
+          Every portion is quality controlled, so no matter which cut you pick,
+          rest assured it is the freshest, safest and of highest quality.
         </p>
+        <p>The wide range of Licious mutton products on offer include:</p>
+        <ul class="list">
+          <li class="no-style">
+            <b>Goat Keema (Mince)</b>
+            – Perfectly ground lean, boneless goat cuts make for a delicate,
+            fine-grained keema. Goat keema has less fat as compared to other
+            meats and has a distinct flavour. The keema can be used to make
+            different dishes that range from keema masala to stuffed keema pao
+            to koftas.
+          </li>
 
-        
+          <li class="no-style">
+            <b>Lamb Keema (Mince) </b>
+            – This lamb keema is ground to perfection using boneless meat from
+            the best cuts. The rich flavour and soft texture of lamb mince makes
+            it a perfect choice for several mutton recipes cooked in different
+            styles. You can make meatballs, burgers, keema curry and kebabs
+            using the lamb keema.
+          </li>
+
+          <li class="no-style">
+            <b>Rich Goat - Curry Cut</b>
+            – The rich goat curry cuts are a perfect mix of bone-in and boneless
+            meat from the shoulders, ribs and loin. These curry cuts are
+            fat-rich with a firm texture and are full of flavour. Licious goat
+            mutton curry cuts are perfect for hearty curries, kormas, biryanis
+            and even haleem.
+          </li>
+
+          <li class="no-style">
+            <b>Lean Goat - Curry Cut </b>
+            – The lean goat curry cuts are well-trimmed to include parts from
+            the shoulder, ribs and leg portions of the goat. It is a mix of
+            bone-in and boneless meat that brings you the perfect balance of
+            strong flavor and tender meat. The premium quality cuts are
+            easy-to-cook as they contain less fat as compared to the richer
+            cuts. These portions are best suited for dishes like mutton curry,
+            bhuna mutton or mutton sukha.
+          </li>
+
+          <li class="no-style">
+            <b>Mutton - Biryani Cut </b>
+            – No Indian feast is complete without the heritage cuisine, mutton
+            biryani. To prepare the perfect mutton biryani, you also need
+            perfect portions of fat-streaked lamb meat. This meat is tender and
+            taken from the neck, shoulder, spine, and ribs. The strong flavour
+            of the mutton and juices from the bones add richness to the dish,
+            making your biryani more sumptuous.
+          </li>
+
+          <li class="no-style">
+            <b>Lamb Kidney – Halved</b>
+            – Lamb kidney has a perfect balance of essential nutrients like
+            vitamin B12, riboflavin, iron, niacin and folate. It is a great way
+            to add a proportion of nutrition and flavours to your meal. At
+            Licious, the lamb kidneys are thoroughly cleaned and cut into
+            halves. These flavoursome kidneys can be used to prepare grilled,
+            pan-fried, or braised dishes.
+          </li>
+
+          <li class="no-style">
+            <b>Mutton Soup Bones </b>
+            – These marrow-rich mutton soup bones are cut from the shoulders,
+            ribs and legs. The nutrient-rich marrow adds its unique flavour to
+            soups and broths, making them rich in terms of nutrition. Soup bones
+            are also a rich source of proteins, calcium and vitamin B12
+          </li>
+
+          <li class="no-style">
+            <b>Lamb Ribs and Chops</b>
+            – The meaty Licious Lamb Ribs and Chops include a mix of bone-in
+            portions cut from the rack and T-bone steaks cut from the waist. The
+            ribs contain more fat as compared to other cuts and are rich in
+            proteins and minerals. These tender textured and strong flavoured
+            lamb ribs and chops are ideal for grilled or curry-based dishes.
+          </li>
+        </ul>
+        <div class="top-rec">
+          <b>Top Recipes </b>
+          – The top recipes that you can prepare using Licious Mutton include:
+        </div>
+        <ul class="list">
+          <li>Pan-seared Lamb Steaks</li>
+          <li>Dum Gosht Biryani</li>
+          <li>Mutton Korma</li>
+          <li>Sali Boti Kabab</li>
+          <li>Khatta Meat</li>
+          <li>Parsi Mutton Cutlets</li>
+          <li>Bhindiwala Mutton</li>
+          <li>Rogan Ghosh</li>
+          <li>Awadhi Mutton Biryani</li>
+          <li>Port Braised Lamb Shanks</li>
+          <li>Aab Gosh</li>
+          <li>Alysun</li>
+          <li>Bolton Hot Pot</li>
+          <li>Goshtaba</li>
+          <li>Mutton Biryani</li>
+          <li>Gosht Ka Salan</li>
+          <li>Gulai Kambing</li>
+          <li>Kachhe Kebab</li>
+          <li>Keema Lal Masala</li>
+          <li>Laal Maas</li>
+          <li>Uzbek Palov</li>
+        </ul>
+
+        <div><b>Things you should know about Licious Mutton </b></div>
+        <ul class="list">
+          <li>Obtained from pasture-raised goats and lambs</li>
+          <li>Meat Rested for a minimum of 12 hours</li>
+          <li>Fresh Produce for Extraordinary Cooking</li>
+          <li>Expertly Carved Pieces</li>
+          <li>Delivered Fresh Everyday</li>
+          <li>Prime-Grade Meat</li>
+          <li>Super Tender</li>
+          <li>Undergoes Stringent Quality Checks</li>
+          <li>Hygienically Vacuum Packed</li>
+          <li>Mix of bone-in delicacies and boneless meat</li>
+        </ul>
+
+        <div class="faq-m">
+          <div><b> FAQs </b></div>
+          <ul class="list">
+            <li class="no-style">
+              <div id="faq-title">
+                <b
+                  >How long can Licious mutton be stored in a refrigerator
+                  before cooking?
+                </b>
+              </div>
+              <div class="faq-des">
+                We bring you the freshest mutton and encourage you to consume
+                the meat at the earliest. The mutton is fresh until the ‘Use by’
+                date as mentioned on the package, so it can be refrigerated for
+                those many days. After cooking, the mutton dish can be
+                refrigerated and enjoyed for up to 4 days to enjoy the best
+                quality.
+              </div>
+            </li>
+            <li class="no-style">
+              <div id="faq-title">
+                <b>Why should I choose Licious mutton? </b>
+              </div>
+              <div class="faq-des">
+                At Licious, we know that the best dishes come from the best
+                quality meats. Our fresh, high quality meats are hand-picked by
+                our in-house experts then thoroughly cleaned and cut.
+                Temperature controlled between 0-4°C, our fresh and tender
+                mutton is delivered right to your doorstep.
+              </div>
+            </li>
+            <li class="no-style">
+              <div id="faq-title">
+                <b>How often can mutton be consumed? </b>
+              </div>
+              <div class="faq-des">
+                Mutton is a rich source of proteins, iron and other essential
+                nutrients. This makes it a good addition to your regular meals.
+                Healthy mutton can be consumed on a regular basis in a balanced
+                diet.
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
-
       <div id="right-pane">
-
+        <table>
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Price *</th>
+              <th>Net wt</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Lamb Mince	</td>
+              <td>Rs. 499</td>
+              <td>500gms
+              </td>
+            </tr>
+            <tr>
+              <td>Goat Keema	</td>
+              <td>Rs. 499	</td>
+              <td>500gms
+              </td>
+            </tr>
+            <tr>
+              <td>Lamb Shoulder - Curry Cut (Medium)	</td>
+              <td>Rs. 519	</td>
+              <td>500gms
+              </td>
+            </tr>
+            <tr>
+              <td >Goat Shoulder - Curry Cut	</td>
+              <td>Rs. 519	</td>
+              <td>500gms
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="last-line"><p>* Product content and prices can vary. Kindly refer to the product page.
+        </p></div>
       </div>
     </div>
   </body>
@@ -479,313 +1039,313 @@
 
 <script>
   var muttonData = [
-
     {
-      image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_7olkuhu3ohb/12/prod_display_image/1634748544.8435--2021-10-2022:19:04--1818",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url:
+        "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_7olkuhu3ohb/12/prod_display_image/1634748544.8435--2021-10-2022:19:04--1818",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
 
     {
-      image_url : "",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url: "",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
 
     {
-      image_url : "",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url: "",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
 
     {
-      image_url : "",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url: "",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
 
     {
-      image_url : "",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url: "",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
 
     {
-      image_url : "",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url: "",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
 
     {
-      image_url : "",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url: "",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
 
     {
-      image_url : "",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url: "",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
 
     {
-      image_url : "",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url: "",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
 
     {
-      image_url : "",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url: "",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
 
     {
-      image_url : "",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url: "",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
 
     {
-      image_url : "",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url: "",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
 
     {
-      image_url : "",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url: "",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
 
     {
-      image_url : "",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url: "",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
 
     {
-      image_url : "",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url: "",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
 
     {
-      image_url : "",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url: "",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
 
     {
-      image_url : "",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url: "",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
 
     {
-      image_url : "",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url: "",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
 
     {
-      image_url : "",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url: "",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
 
     {
-      image_url : "",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url: "",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
 
     {
-      image_url : "",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url: "",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
 
     {
-      image_url : "",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url: "",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
 
     {
-      image_url : "",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url: "",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
 
     {
-      image_url : "",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url: "",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
 
     {
-      image_url : "",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url: "",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
 
     {
-      image_url : "",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url: "",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
 
     {
-      image_url : "",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url: "",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
 
     {
-      image_url : "",
-      name : "",
-      description : "",
-      net_weight : "",
-      gross : "",
+      image_url: "",
+      name: "",
+      description: "",
+      net_weight: "",
+      gross: "",
       price: "",
-      mrp : "",
-      discount :"",
+      mrp: "",
+      discount: "",
     },
-  ]
+  ];
 </script>
