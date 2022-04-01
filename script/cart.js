@@ -22,17 +22,23 @@ console.log(data)
 
 // console.log(obj,ranData);
 displayCart()
+
+
+
+
 function displayCart(){
-var cart = document.querySelector(".cartSlide")
+var cart = document.querySelector(".cart123456")
 cart.addEventListener("click",slider);
 
+projectCart = document.querySelector(".cartSlide")
+
 function slider(event){
-    cart.innerHTML = ""
+    projectCart.innerHTML = ""
     var div = document.createElement("div")
     div.setAttribute("class","cartSlider");
     
     var h1div = document.createElement("div")
-    var hdiv = document.createElement("div")
+    // var hdiv = document.createElement("div")
     var h1 = document.createElement("h1")
     h1.setAttribute("id","h1InsideCartSlider")
     h1.innerText = "Order Summary"
@@ -42,8 +48,8 @@ function slider(event){
     close.setAttribute("class","slidingClose")
     close.addEventListener("click",closeCall);
 
-    hdiv.append(h1)
-    h1div.append(hdiv,close)
+    
+    h1div.append(h1,close)
 
     var cartDiv = document.createElement("div")
     cartDiv.setAttribute("class","cartSliding");
@@ -93,10 +99,10 @@ data.map(function(ele,index){
     endDiv.append(toatalAmount,placeOrder)
     div.append(h1div,cartDiv,endDiv)
     
-    cart.append(div)
-    event.target.style.backgroundColor = "rgb(128,128,128,0.5)"
-    event.target.style.width = "100%"
-    event.target.style.height = "100%"
+    projectCart.append(div)
+    projectCart.style.backgroundColor = "rgb(128,128,128,0.5)"
+    projectCart.style.width = "100%"
+    projectCart.style.height = "100%"
 }
 
 }
