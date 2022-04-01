@@ -131,3 +131,13 @@
 .cartSliding>#productDetailsCart:last-child{
     height: 20%;
 }
+.D8888888{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    justify-content: space-between;
+}
+
+itemAddRemove{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
