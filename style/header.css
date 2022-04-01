@@ -1,0 +1,193 @@
+html{
+    line-height: 1.5;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    color: rgba(0,0,0,.87);
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* nav bar top */
+.navbar-top{
+    display: flex;
+    /* border: 1px solid red; */
+    font-family: Lato,sans-serif;
+    font-size: 12px;
+    color: #828282;
+    background-color: #eaeaea;
+    height: 30px;
+    font-weight: 400;
+    
+}
+.navbar-child{
+    display: flex;
+    /* border: 1px solid black; */
+    margin: auto;
+    width: 30%;
+    color: #646464;
+    padding-top: 5px;
+    height:100%;
+    font-weight: 550;
+}
+.right{
+  margin-right: 70px;
+}
+.left{
+    margin-left: 97px;
+}
+.child{
+    text-decoration: none;
+    color: #828282;
+    text-align: center;
+    /* justify-content: space-evenly; */
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    /* margin-top: 10px; */
+}   
+    
+
+.logo{
+    width: 14px;
+    height: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+/* nav bar top end */
+
+
+
+/* nav bar 2 start */
+.main{
+    border: 1px solid black;
+    background-color: rgb(248 248 248);
+    color: rgb(248 248 248);
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    border: none;
+    resize: none;
+    outline: none;
+}
+.set{
+    width: 450px;
+    border: none;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(248 248 248);
+    resize: none;
+    outline: none;
+}
+.bordericon{
+    border: none;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(248 248 248);
+    border: none;
+    resize: none;
+    outline: none;
+}
+.navbar-2{
+    width: 75%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 30px;
+    /* position:sta */
+}
+.navbar-2 div{
+margin: auto;
+}
+#radius{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.clr{
+    color:#898989 ;
+}
+/* navbar 2 ends */
+/* nav bar 3 starts */
+.parent {
+    width: 100%;
+    height: 118px;
+    background-color: #fdfdfd;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 2px;
+
+}
+
+.child1 {
+    border: none;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+
+.control {
+    border: 1px solid transparent;
+    background-color: cornsilk;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.child-c1 {
+
+    border: none;
+    width: 15%;
+    height: 110px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    /* justify-content: center; */
+    /* text-align: center; */
+    margin: 2px;
+    text-decoration: none;
+
+}
+
+.child-c1>img {
+    width: 64px;
+    height: 64px;
+
+}
+
+.siz {
+    width: 64px;
+    height: 64px;
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    margin-bottom: 10px;
+    /* font-size: 14px; */
+}
+
+.size {
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    /* margin-top: 5px; */
+    justify-content: center;
+    /* margin-right: 15px; */
+    text-align: center;
+}
+
+.clr {
+    text-decoration-style: gray;
+    /* background-color: blue; */
+}
+
+
+
+
