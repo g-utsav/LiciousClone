@@ -1,18 +1,102 @@
 * {
-  font-family: "Lato", sans-serif;
-  /* background-color: #f7f6f6; */
+    font-family: "Lato", sans-serif;
+    /* background-color: #f7f6f6; */
 
+  }
+
+  body{
+    background-color: whitesmoke;
+
+  }
+
+
+  #express-deli{
+    display: flex;
+    gap: 20px;
 }
 
-body{
-  background-color: whitesmoke;
-
+#express-deli > div{
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 5px;
 }
 
+  #express > img{
+      height: 20px;
+      width: 20px;
+  }
 
-.the-container{
-    width: 90%;
+  #about-mutton {
+    
+    width: 100%;
     height: auto;
+    background-color: white;
+    display: flex;
+    /* border: 1px solid yellowgreen; */
+    margin: auto;
+    margin-top: 20px;
+    justify-content: center;
+    line-height: 20px;
+  }
+
+  #left-pane {
+    background-color: white;
+    width: 900px;
+    /* border: 1px solid red; */
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    padding: 20px;
+
+  }
+
+  #right-pane {
+    background-color: white;
+    padding: 20px;
+    width: 450px;
+    /* border: 1px solid blue; */
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+  }
+
+  .list {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+  li {
+    margin-top: 10px;
+    /* margin-left: -10px; */
+  }
+  .no-style {
+    list-style-type: none;
+    margin-left: -20px;
+    margin-top: 10px;
+  }
+
+  .faq-des {
+    margin-top: 10px;
+  }
+
+  table{
+    margin: auto;
+  }
+
+  th, td{
+    padding: 10px 10px 10px 20px;
+    border-bottom: 1px solid black;
+  }
+
+  .last-line{
+    text-align: center;
+  }
+
+  .the-container{
+    width: 90%;
+  
     margin: auto;
     margin-top: 100px;
 }
@@ -53,22 +137,22 @@ body{
     padding-top: 10px;
     padding-left: 5px;
     padding-right: 5px;
+
   }
 
-#express-deli{
+  #express-deli{
     display: flex;
     gap: 20px;
 }
 
 #express-deli > div{
     border: 1px solid black;
-    width: 100px;
+    width: 120px;
     height: 30px;
     background-color: white;
     color: black;
     text-align: center;
-    padding-top: 5px;
-    /* vertical-align: middle; */
+    padding: 5px;
 }
 
 select{
@@ -123,7 +207,6 @@ option{
    color: white;
    width: 100px;
    height: 35px;
-   /* padding: 10px; */
    font-size: 12px;
    border-radius: 5px;
    font-weight: bold;
@@ -136,10 +219,12 @@ option{
     /* border: 1px solid black; */
   }
 
-  .dtime{
+.dtime{
+    /* border: 1px solid red; */
+    /* align-items: center; */
     margin-top: 10px;
-  }
-
+    
+}
 
 .deli-line{
     display: flex;
@@ -181,7 +266,6 @@ option{
 
 .banerDown{
     height: 25px;
-    /* border: 1px solid brown; */
 
 }
 

@@ -1,38 +1,67 @@
 
-  feastData = [
+  curryData1 = [
 
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/2e41ce88-fe85-00ef-82e8-51678c4c830b/original/1584770394.3524--2020-03-2111_29_54--738.jpeg?format=webp",
         
-        name : "Crispy Chicken Wings | Ready to Cook",
+        name : "Chicken Curry Cut ( Small Pcs ) ",
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
-        mrp : "₹119",
+        price : "₹99",
+        mrp : "₹127",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
     },
 
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4rqjek3ovjp/34/prod_display_image/1634299413.2321--2021-10-1517:33:33--905?format=webp",
-        name : "Sichuan Chilli Chicken | Ready to Cook",
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/a9319c2f-5cc5-3bc9-58ee-47889e64bb87/original/1574674590.8704--2019-11-2515_06_30--539.jpeg?format=webp",
+        name : "Chicken Curry Cut (Large Pcs)",
         discription : "BOneless chicken in an Indo-chinese marinade",
         netWeight : "500gms",
         pieces : "22-24",
-        current_price : "₹299",
+        price : "₹112",
         mrp : "₹219",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
     },
 
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_fmhkgtbdprx/34/prod_display_image/1631077152.0732--2021-09-0810:29:12--1818",
-        name : "Chicken Breast Boneless - Large Pack",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_av4kgtb3l1h/34/prod_display_image/1631077812.5226--2021-09-0810:40:12--1818",
+        name : "Chicken Curry Cut(Small Pcs) - Large Pack",
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
+        mrp : "₹289",
+        discount : "17% OFF",
+        delivery_time : "Tommorow 8 AM - 10 AM",
+    },
+
+]
+
+curryData = [
+
+   
+    {
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/ad8c8196-f851-4ce1-728d-059741dd8f91/original/1587912130.4688--2020-04-2620_12_10--738.jpeg?format=webp",
+        name : "Lean Goat Curry Cut",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
+        pieces : "7-8",
+        price : "₹99",
+        mrp : "₹119",
+        discount : "17% OFF",
+        delivery_time : "Tommorow 8 AM - 10 AM",
+    },
+
+    {
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/e4de7257-c91c-b79a-7d4c-b9194294a64f/original/1585310793.592--2020-03-2717_36_33--738.jpeg?format=webp",
+        name : "Chicken Curry Cut - With Skin (Small Pcs)",
+        discription : "Bone-in, bite-sized, skin-on pieces of meat including...",
+        netWeight : "500gms",
+        pieces : "526gms",
+        price : "₹149",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -44,7 +73,32 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
+        mrp : "₹119",
+        discount : "17% OFF",
+        delivery_time : "Tommorow 8 AM - 10 AM",
+    },
+
+   
+    {
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/ad8c8196-f851-4ce1-728d-059741dd8f91/original/1587912130.4688--2020-04-2620_12_10--738.jpeg?format=webp",
+        name : "Lean Goat Curry Cut",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
+        pieces : "7-8",
+        price : "₹99",
+        mrp : "₹119",
+        discount : "17% OFF",
+        delivery_time : "Tommorow 8 AM - 10 AM",
+    },
+
+    {
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/e4de7257-c91c-b79a-7d4c-b9194294a64f/original/1585310793.592--2020-03-2717_36_33--738.jpeg?format=webp",
+        name : "Chicken Curry Cut - With Skin (Small Pcs)",
+        discription : "Bone-in, bite-sized, skin-on pieces of meat including...",
+        netWeight : "500gms",
+        pieces : "526gms",
+        price : "₹149",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -56,7 +110,104 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
+        mrp : "₹119",
+        discount : "17% OFF",
+        delivery_time : "Tommorow 8 AM - 10 AM",
+    },
+
+   
+    {
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/ad8c8196-f851-4ce1-728d-059741dd8f91/original/1587912130.4688--2020-04-2620_12_10--738.jpeg?format=webp",
+        name : "Lean Goat Curry Cut",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
+        pieces : "7-8",
+        price : "₹99",
+        mrp : "₹119",
+        discount : "17% OFF",
+        delivery_time : "Tommorow 8 AM - 10 AM",
+    },
+
+    {
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/e4de7257-c91c-b79a-7d4c-b9194294a64f/original/1585310793.592--2020-03-2717_36_33--738.jpeg?format=webp",
+        name : "Chicken Curry Cut - With Skin (Small Pcs)",
+        discription : "Bone-in, bite-sized, skin-on pieces of meat including...",
+        netWeight : "500gms",
+        pieces : "526gms",
+        price : "₹149",
+        mrp : "₹119",
+        discount : "17% OFF",
+        delivery_time : "Tommorow 8 AM - 10 AM",
+    },
+    
+    {
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/ad8c8196-f851-4ce1-728d-059741dd8f91/original/1587912130.4688--2020-04-2620_12_10--738.jpeg?format=webp",
+        name : "Lean Goat Curry Cut",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
+        pieces : "7-8",
+        price : "₹99",
+        mrp : "₹119",
+        discount : "17% OFF",
+        delivery_time : "Tommorow 8 AM - 10 AM",
+    },
+
+    {
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/e4de7257-c91c-b79a-7d4c-b9194294a64f/original/1585310793.592--2020-03-2717_36_33--738.jpeg?format=webp",
+        name : "Chicken Curry Cut - With Skin (Small Pcs)",
+        discription : "Bone-in, bite-sized, skin-on pieces of meat including...",
+        netWeight : "500gms",
+        pieces : "526gms",
+        price : "₹149",
+        mrp : "₹119",
+        discount : "17% OFF",
+        delivery_time : "Tommorow 8 AM - 10 AM",
+    },
+    
+    {
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
+        pieces : "7-8",
+        price : "₹99",
+        mrp : "₹119",
+        discount : "17% OFF",
+        delivery_time : "Tommorow 8 AM - 10 AM",
+    },
+    {
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/ad8c8196-f851-4ce1-728d-059741dd8f91/original/1587912130.4688--2020-04-2620_12_10--738.jpeg?format=webp",
+        name : "Lean Goat Curry Cut",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
+        pieces : "7-8",
+        price : "₹99",
+        mrp : "₹119",
+        discount : "17% OFF",
+        delivery_time : "Tommorow 8 AM - 10 AM",
+    },
+
+    {
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/e4de7257-c91c-b79a-7d4c-b9194294a64f/original/1585310793.592--2020-03-2717_36_33--738.jpeg?format=webp",
+        name : "Chicken Curry Cut - With Skin (Small Pcs)",
+        discription : "Bone-in, bite-sized, skin-on pieces of meat including...",
+        netWeight : "500gms",
+        pieces : "526gms",
+        price : "₹149",
+        mrp : "₹119",
+        discount : "17% OFF",
+        delivery_time : "Tommorow 8 AM - 10 AM",
+    },
+
+    
+    {
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
+        pieces : "7-8",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -68,7 +219,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -80,7 +231,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -92,7 +243,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -104,7 +255,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -116,7 +267,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -128,7 +279,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -140,7 +291,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -152,7 +303,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -164,7 +315,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -176,7 +327,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -188,7 +339,31 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
+        mrp : "₹119",
+        discount : "17% OFF",
+        delivery_time : "Tommorow 8 AM - 10 AM",
+    },
+
+    {
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/ad8c8196-f851-4ce1-728d-059741dd8f91/original/1587912130.4688--2020-04-2620_12_10--738.jpeg?format=webp",
+        name : "Lean Goat Curry Cut",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
+        pieces : "7-8",
+        price : "₹99",
+        mrp : "₹119",
+        discount : "17% OFF",
+        delivery_time : "Tommorow 8 AM - 10 AM",
+    },
+
+    {
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/e4de7257-c91c-b79a-7d4c-b9194294a64f/original/1585310793.592--2020-03-2717_36_33--738.jpeg?format=webp",
+        name : "Chicken Curry Cut - With Skin (Small Pcs)",
+        discription : "Bone-in, bite-sized, skin-on pieces of meat including...",
+        netWeight : "500gms",
+        pieces : "526gms",
+        price : "₹149",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -200,7 +375,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -212,199 +387,31 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
     },
 
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        name : "Crispy Chicken Wings | Ready to Cook",
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/ad8c8196-f851-4ce1-728d-059741dd8f91/original/1587912130.4688--2020-04-2620_12_10--738.jpeg?format=webp",
+        name : "Lean Goat Curry Cut",
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
     },
 
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        name : "Crispy Chicken Wings | Ready to Cook",
-        discription : "Chicken wings marinated in spices & coated in panko cru...",
-        netWeight : "225gms",
-        pieces : "7-8",
-        current_price : "₹99",
-        mrp : "₹119",
-        discount : "17% OFF",
-        delivery_time : "Tommorow 8 AM - 10 AM",
-    },
-
-    {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        name : "Crispy Chicken Wings | Ready to Cook",
-        discription : "Chicken wings marinated in spices & coated in panko cru...",
-        netWeight : "225gms",
-        pieces : "7-8",
-        current_price : "₹99",
-        mrp : "₹119",
-        discount : "17% OFF",
-        delivery_time : "Tommorow 8 AM - 10 AM",
-    },
-
-    {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        name : "Crispy Chicken Wings | Ready to Cook",
-        discription : "Chicken wings marinated in spices & coated in panko cru...",
-        netWeight : "225gms",
-        pieces : "7-8",
-        current_price : "₹99",
-        mrp : "₹119",
-        discount : "17% OFF",
-        delivery_time : "Tommorow 8 AM - 10 AM",
-    },
-
-    {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        name : "Crispy Chicken Wings | Ready to Cook",
-        discription : "Chicken wings marinated in spices & coated in panko cru...",
-        netWeight : "225gms",
-        pieces : "7-8",
-        current_price : "₹99",
-        mrp : "₹119",
-        discount : "17% OFF",
-        delivery_time : "Tommorow 8 AM - 10 AM",
-    },
-
-    {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        name : "Crispy Chicken Wings | Ready to Cook",
-        discription : "Chicken wings marinated in spices & coated in panko cru...",
-        netWeight : "225gms",
-        pieces : "7-8",
-        current_price : "₹99",
-        mrp : "₹119",
-        discount : "17% OFF",
-        delivery_time : "Tommorow 8 AM - 10 AM",
-    },
-
-    {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        name : "Crispy Chicken Wings | Ready to Cook",
-        discription : "Chicken wings marinated in spices & coated in panko cru...",
-        netWeight : "225gms",
-        pieces : "7-8",
-        current_price : "₹99",
-        mrp : "₹119",
-        discount : "17% OFF",
-        delivery_time : "Tommorow 8 AM - 10 AM",
-    },
-
-    {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        name : "Crispy Chicken Wings | Ready to Cook",
-        discription : "Chicken wings marinated in spices & coated in panko cru...",
-        netWeight : "225gms",
-        pieces : "7-8",
-        current_price : "₹99",
-        mrp : "₹119",
-        discount : "17% OFF",
-        delivery_time : "Tommorow 8 AM - 10 AM",
-    },
-
-    {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        name : "Crispy Chicken Wings | Ready to Cook",
-        discription : "Chicken wings marinated in spices & coated in panko cru...",
-        netWeight : "225gms",
-        pieces : "7-8",
-        current_price : "₹99",
-        mrp : "₹119",
-        discount : "17% OFF",
-        delivery_time : "Tommorow 8 AM - 10 AM",
-    },
-
-    {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        name : "Crispy Chicken Wings | Ready to Cook",
-        discription : "Chicken wings marinated in spices & coated in panko cru...",
-        netWeight : "225gms",
-        pieces : "7-8",
-        current_price : "₹99",
-        mrp : "₹119",
-        discount : "17% OFF",
-        delivery_time : "Tommorow 8 AM - 10 AM",
-    },
-
-    {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        name : "Crispy Chicken Wings | Ready to Cook",
-        discription : "Chicken wings marinated in spices & coated in panko cru...",
-        netWeight : "225gms",
-        pieces : "7-8",
-        current_price : "₹99",
-        mrp : "₹119",
-        discount : "17% OFF",
-        delivery_time : "Tommorow 8 AM - 10 AM",
-    },
-
-    {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        name : "Crispy Chicken Wings | Ready to Cook",
-        discription : "Chicken wings marinated in spices & coated in panko cru...",
-        netWeight : "225gms",
-        pieces : "7-8",
-        current_price : "₹99",
-        mrp : "₹119",
-        discount : "17% OFF",
-        delivery_time : "Tommorow 8 AM - 10 AM",
-    },
-
-    {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        name : "Crispy Chicken Wings | Ready to Cook",
-        discription : "Chicken wings marinated in spices & coated in panko cru...",
-        netWeight : "225gms",
-        pieces : "7-8",
-        current_price : "₹99",
-        mrp : "₹119",
-        discount : "17% OFF",
-        delivery_time : "Tommorow 8 AM - 10 AM",
-    },
-
-    {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        name : "Crispy Chicken Wings | Ready to Cook",
-        discription : "Chicken wings marinated in spices & coated in panko cru...",
-        netWeight : "225gms",
-        pieces : "7-8",
-        current_price : "₹99",
-        mrp : "₹119",
-        discount : "17% OFF",
-        delivery_time : "Tommorow 8 AM - 10 AM",
-    },
-
-    {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        name : "Crispy Chicken Wings | Ready to Cook",
-        discription : "Chicken wings marinated in spices & coated in panko cru...",
-        netWeight : "225gms",
-        pieces : "7-8",
-        current_price : "₹99",
-        mrp : "₹119",
-        discount : "17% OFF",
-        delivery_time : "Tommorow 8 AM - 10 AM",
-    },
-
-    {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        name : "Crispy Chicken Wings | Ready to Cook",
-        discription : "Chicken wings marinated in spices & coated in panko cru...",
-        netWeight : "225gms",
-        pieces : "7-8",
-        current_price : "₹99",
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/e4de7257-c91c-b79a-7d4c-b9194294a64f/original/1585310793.592--2020-03-2717_36_33--738.jpeg?format=webp",
+        name : "Chicken Curry Cut - With Skin (Small Pcs)",
+        discription : "Bone-in, bite-sized, skin-on pieces of meat including...",
+        netWeight : "500gms",
+        pieces : "526gms",
+        price : "₹149",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -412,8 +419,45 @@
 ]; 
 
 
-feastData.map(function(elem){
 
+displayUI(curryData1, "#main-container1") 
+banerFun()
+function banerFun(){
+
+    var forBaner = document.querySelector("#banerId")
+    var baner = document.createElement("div");
+    baner.setAttribute("class","baner");
+
+
+    var banerUp = document.createElement("div");
+    banerUp.setAttribute("class","banerUp");
+    
+    var banerImage = document.createElement("img");
+    banerImage.src = "https://www.licious.in/img/default/loyalty_licious_logo.svg";
+
+    var banerbtn = document.createElement("button");
+    banerbtn.setAttribute("class","banerBtn");
+    banerbtn.innerText = "JOIN NOW";
+
+    // second div of baner 
+    var banerDown = document.createElement("div");
+    banerDown.setAttribute("class","banerDown");
+
+    var banerD = document.createElement("p");
+    banerD.setAttribute("class","banerD");
+    banerD.innerText = "Enjoy unlimited free delivery & perks crafted for true meat lovers";
+    
+    banerUp.append(banerImage, banerbtn)    
+    banerDown.append(banerD)
+    baner.append(banerUp, banerDown)
+    forBaner.append(baner)
+
+}
+
+displayUI(curryData, "#main-container2")
+var count  = 0;
+function displayUI(data, container){
+data.map(function(elem){
 
 var card = document.createElement("div")
 card.style.boxShadow = "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px" ; 
@@ -446,7 +490,7 @@ netWeight_line.className = "net-wt-line";
 netWeight_line.style.fontWeight = "bold";
 
 var currentPrice = document.createElement("p");
-currentPrice.innerText = elem.current_price ;
+currentPrice.innerText = elem.price ;
 currentPrice.style.color = "red";
 
 var mrp = document.createElement("p");
@@ -464,6 +508,9 @@ price_line.className = "price-line";
 var cart_btn = document.createElement("button");
 cart_btn.innerText = "Add to Cart";
 cart_btn.setAttribute("class", "add_to_cart")
+cart_btn.addEventListener("click", function(){
+    addToCartBtn(elem)
+})
 
 // cart_btn.addEventListener("click", )
 
@@ -485,6 +532,14 @@ deli_line.append(d_img,d_time)
 netWeight_line.append(netWt, pieces);
 price_line.append( currentPrice, mrp, discount, cart_btn);
 card.append(img, itemName, itemDes, netWeight_line, price_line, deli_line);
-document.querySelector("#main-container").append(card);
+document.querySelector(container).append(card);
 
 })
+
+}
+
+var cartData = JSON.parse(localStorage.getItem("cartData")) || [];
+function addToCartBtn(elem){
+    cartData.push(elem)
+    localStorage.setItem("cartData",JSON.stringify(cartData))
+}

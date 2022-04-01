@@ -1,9 +1,60 @@
-#upper-content{
-    margin: auto;
-    margin-top: 200px;
-    width: 80%;
-    height: 150px;
+* {
+  font-family: "Lato", sans-serif;
+  /* background-color: #f7f6f6; */
+
 }
+
+body{
+  background-color: whitesmoke;
+
+}
+
+
+
+.the-container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.upper-line {
+    display: flex;
+    margin: 10px;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .upper-line > div {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .upper-line > h1 {
+    color: #585858;
+    margin-right: 10px;
+    margin-left: -1%;
+  }
+
+  .upper-line > div > img {
+    width: 50px;
+    height: 50px;
+  }
+  .upper-line > div > p {
+    border: 1px solid #585858;
+    font-size: 14.5px;
+    width: 250px;
+    height: 40px;
+    margin: auto;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 
 #express-deli{
     display: flex;
@@ -13,7 +64,7 @@
 #express-deli > div{
     border: 1px solid black;
     width: 100px;
-    height: 20px;
+    height: 30px;
     background-color: white;
     color: black;
     text-align: center;
@@ -26,15 +77,32 @@ select{
     font-size: 11px;
 }
 
-#main-container{
+option{
+  border: 1px solid black;
+  width: 100px;
+  height: 20px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding-top: 5px;
+}
+
+
+
+#main-container1, #main-container2{
     width: 1150px;
     height: auto;
     margin: auto;
+    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     /* grid-template-rows: repeat(12, 450px); */
     gap: 25px;
 }
+
+
+
+
 
 .price-line{
     margin-top: -5px;
@@ -56,7 +124,7 @@ select{
    color: white;
    width: 100px;
    height: 35px;
-   padding: 10px 12px;
+   /* padding: 10px; */
    font-size: 12px;
    border-radius: 5px;
    font-weight: bold;
@@ -69,9 +137,10 @@ select{
     /* border: 1px solid black; */
   }
 
-/* .dtime{
-    border: 1px solid red;
-} */
+  .dtime{
+    margin-top: 10px;
+  }
+
 
 .deli-line{
     display: flex;
@@ -81,13 +150,17 @@ select{
     justify-content: center;
     /* border: 1px solid blue; */
 }
-/* 
+
 .baner{
+
+    margin-top: 30px;
     height: 110px;
     width: 800px;
     margin: auto;
+    margin-top: 20px;
     border-radius: 10px;
     background-color: #ffdc93;
+    /* display: grid; */
 }
 
 .banerUp{
@@ -109,12 +182,11 @@ select{
 
 .banerDown{
     height: 25px;
-    border: 1px solid brown;
-    padding: 20px;
+    /* border: 1px solid brown; */
 
 }
 
 .banerD{
   margin-top: -5px;  
   padding: 10px;
-} */
+}

@@ -6,7 +6,7 @@ eggsData1 = [
         discription : "pack of 6 naturally laid, white eggs from healthy hens",
         netWeight : "250gms",
         pieces : "6",
-        current_price : "₹44",
+        price : "₹44",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -18,7 +18,7 @@ eggsData1 = [
         discription : "pack of 6 naturally laid, white eggs from healthy hens",
         netWeight : "500gms",
         pieces : "12",
-        current_price : "₹109",
+        price : "₹109",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -30,7 +30,7 @@ eggsData1 = [
         discription : "pack of 6 naturally laid, white eggs from healthy hens",
         netWeight : "500gms",
         pieces : "30",
-        current_price : "₹269",
+        price : "₹269",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -44,7 +44,7 @@ eggsData = [
         discription : "pack of 6 naturally laid, white eggs from healthy hens",
         netWeight : "500gms",
         pieces : "6",
-        current_price : "₹95",
+        price : "₹95",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -56,7 +56,7 @@ eggsData = [
         discription : "pack of 6 naturally laid, white eggs from healthy hens",
         netWeight : "500gms",
         pieces : "6",
-        current_price : "₹75",
+        price : "₹75",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -81,6 +81,7 @@ function banerFun(){
 
     var banerbtn = document.createElement("button");
     banerbtn.setAttribute("class","banerBtn");
+    banerbtn.innerText = "JOIN NOW";
 
     // second div of baner 
     var banerDown = document.createElement("div");
@@ -88,6 +89,7 @@ function banerFun(){
 
     var banerD = document.createElement("p");
     banerD.setAttribute("class","banerD");
+    banerD.innerText = "Enjoy unlimited free delivery & perks crafted for true meat lovers";
     
     banerUp.append(banerImage, banerbtn)    
     banerDown.append(banerD)
@@ -100,37 +102,6 @@ displayUI(eggsData, "#main-container2")
 var count  = 0;
 function displayUI(data, container){
 data.map(function(elem){
-            
-        //     if(count == 3){
-
-        //     var baner = document.createElement("div");
-        //     baner.setAttribute("class","baner");
-
-
-        //     var banerUp = document.createElement("div");
-        //     banerUp.setAttribute("class","banerUp");
-            
-        //     var banerImage = document.createElement("img");
-        //     banerImage.src = "https://www.licious.in/img/default/loyalty_licious_logo.svg";
-    
-        //     var banerbtn = document.createElement("button");
-        //     banerbtn.setAttribute("class","banerBtn");
-    
-        //     // second div of baner 
-        //     var banerDown = document.createElement("div");
-        //     banerDown.setAttribute("class","banerDown");
-    
-        //     var banerD = document.createElement("p");
-        //     banerD.setAttribute("class","banerD");
-            
-        //     banerUp.append(banerImage, banerbtn)    
-        //     banerDown.append(banerD)
-        //     baner.append(banerUp, banerDown)
-        // }
-        // count++;
-
-     
-        
     
     var card = document.createElement("div")
     card.style.boxShadow = "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px" ; 
@@ -163,7 +134,7 @@ data.map(function(elem){
     netWeight_line.style.fontWeight = "bold";
 
     var currentPrice = document.createElement("p");
-    currentPrice.innerText = elem.current_price ;
+    currentPrice.innerText = elem.price ;
     currentPrice.style.color = "red";
 
     var mrp = document.createElement("p");
