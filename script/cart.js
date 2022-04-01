@@ -1,8 +1,12 @@
-var ranData = JSON.parse(localStorage.getItem("cartData")) || [];
 
 var data = [];
 
+
+function genData(){
+    var ranData = JSON.parse(localStorage.getItem("cartData")) || [];
+data = []
 var obj = {};
+// if(ranData[0])data.push(ranData[0]);;
 
 ranData.map(function(ele){
  
@@ -18,22 +22,33 @@ ranData.map(function(ele){
 for(var key in obj){
     data.push(obj[key])
 }
+
+}
+
+genData()
+displayCart(data,false)
 console.log(data)
 
 // console.log(obj,ranData);
-displayCart()
 
 
 
 
-function displayCart(){
-var cart = document.querySelector(".cart123456")
-cart.addEventListener("click",slider);
+function displayCart(data,flag){
+    genData()
+    var cart = document.querySelector(".cart123456")
+    cart.addEventListener("click",slider);
+    projectCart = document.querySelector(".cartSlide")
 
-projectCart = document.querySelector(".cartSlide")
 
-function slider(event){
-    projectCart.innerHTML = ""
+    if(flag){
+        var cl = new Event("click");
+        cart.dispatchEvent(cl)
+    }
+    
+    // genData()
+    function slider(event){
+        projectCart.innerHTML = ""
     var div = document.createElement("div")
     div.setAttribute("class","cartSlider");
     
@@ -62,7 +77,7 @@ function slider(event){
 
 // var cartContainer = document.querySelector(".cartSliding");
 // cartDiv.innerHTML = "";
-console.log(data)
+// console.log(data)
 data.map(function(ele,index){
     var div123 = document.createElement("div")
     div123.setAttribute("id","productDetailsCart")
@@ -76,8 +91,9 @@ data.map(function(ele,index){
     var nameDiv =document.createElement("div")
     nameDiv.innerText = ele.name
     var closeDiv = document.createElement("div")
-    closeDiv.innerHTML= "<h3>X</h3>"
-    closeDiv.addEventListener("click",reMapData)
+    closeDiv.innerHTML= "<h6>X</h6>"
+    closeDiv.addEventListener("click",function(){
+        reMapData(index)})
     
     var priceCart =document.createElement("div")
     priceCart.innerText = `₹${ele.price}`
@@ -97,7 +113,7 @@ data.map(function(ele,index){
     itemAddRemove.append(min,itemCount,plus)
 
     
-    console.log(itemCount)
+    //console.log(itemCount)
     
     
     
@@ -124,9 +140,9 @@ data.map(function(ele,index){
     div.append(h1div,cartDiv,endDiv)
     
     projectCart.append(div)
-    projectCart.style.backgroundColor = "rgb(128,128,128,0.5)"
-    projectCart.style.width = "100%"
-    projectCart.style.height = "100%"
+//     projectCart.style.backgroundColor = "rgb(128,128,128,0.5)"
+//     projectCart.style.width = "100%"
+//     projectCart.style.height = "100%"
 }
 
 }
@@ -145,10 +161,15 @@ function closeCall(){
     projectCart.style.backgroundColor = "none"
     projectCart.style.width = "0px"
     projectCart.style.height = "0px"
+    genData()
+    displayCart(data,false)
+
 
 }
 
-
-function reMapData(){
-    
+data= JSON.parse(localStorage.getItem("cartData"))||[]
+function reMapData(index){
+    data.splice(index,1)
+    localStorage.setItem("cartData",JSON.stringify(data))
+    displayCart(data,true)
 }
