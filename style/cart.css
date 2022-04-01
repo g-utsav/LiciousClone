@@ -1,0 +1,105 @@
+.cartSlide{
+    /* background-color: teal; */
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 20px;
+    top: 50px;
+    cursor: pointer;
+}
+
+.cartSlider{
+    background-color: white;
+    width: 450px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    height: 900px;
+    position: fixed!Important;
+    top: 20px;
+    right: 0px;
+    right: 0px;
+    /* z-index: -20; */
+    cursor: pointer;
+
+}
+#h1InsideCartSlider{
+    font-size:170%;
+    margin-top: -13px;
+    margin-bottom: 20px;
+}
+
+.cartSlider>div>h1{
+    /* padding-left: 20px; */
+    /* color: gray; */
+    font: 99%;
+}
+
+.cartSlider>div:first-child{
+    display: grid;
+    grid-template-columns: 70% 20%;
+    gap:10%;
+    padding: 0 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.cartSlider>div:first-child>div{
+    /* height: 40px; */
+    /* padding-bottom: -20px; */
+    text-align: center;
+    font-size: 120%;
+    /* padding-top: 10px; */
+}
+
+.cartSlide>div>div:last-child{
+    width: 95%;
+    position: absolute;
+    /* bottom: 50px; */
+    right: 10px;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* border: solid; */
+    text-align: center;
+    height: 70px;
+}
+
+.cartSlide>div>div>div:first-child{
+    font-weight: 550;
+    height: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.cartSlide>div>div>div:last-child{
+    background-color: crimson;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-top:10px;
+    color: white;
+    height: 50%;
+    font-weight: 550;
+    border-radius: 10px;
+}
+
+.cartSliding{
+    width: 95%;
+    margin: auto;
+    border: solid;
+    height: 55%;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.productDetailsCart>div:first-child{
+    display: grid;
+    grid-template-columns: 70% 20%;
+    cursor: pointer;
+}
+
+#productDetailsCart{
+    background-color: white;
+   color: black;
+   /* display: flex; */
+   /* justify-content: space-around; */
+}
