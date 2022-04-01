@@ -115,7 +115,13 @@ function closeCall(){
     // cart.style.backgroundColor = "none"
     // cart.style.width = "10%"
     // cart.innerHTML = ""
-    window.location.reload()
+    // window.location.reload()
+    projectCart = document.querySelector(".cartSlide")
+    projectCart.innerHTML = ""
+    projectCart.style.backgroundColor = "none"
+    projectCart.style.width = "0px"
+    projectCart.style.height = "0px"
+
 }
 
 
