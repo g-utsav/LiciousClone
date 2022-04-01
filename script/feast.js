@@ -1,5 +1,5 @@
 
-  feastData = [
+  feastData1 = [
 
     {
         image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
@@ -8,19 +8,19 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
     },
 
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4rqjek3ovjp/34/prod_display_image/1634299413.2321--2021-10-1517:33:33--905?format=webp",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_fagkepqge4h/34/prod_display_image/1634540836.8128--2021-10-1812:37:16--1818?format=webp",
         name : "Sichuan Chilli Chicken | Ready to Cook",
         discription : "Boneless chicken in an Indo-chinese marinade",
         netWeight : "500gms",
         pieces : "22-24",
-        current_price : "₹299",
+        price : "₹299",
         mrp : "₹219",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -32,11 +32,15 @@
         discription : "Skinless , Bone-in, juicy meat from the lower leg with a .....",
         netWeight : "500gms",
         pieces : "666gms",
-        current_price : "₹252",
+        price : "₹252",
         mrp : "₹265",
         discount : "5% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
     },
+
+  ]
+
+  feastData = [
 
     {
         image : "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/f9de17db-1263-4d79-8600-477f07c24a6e/original/Chunky-Shawarma-Chicken-Spread_(7).jpg?format=webp",
@@ -44,7 +48,7 @@
         discription : "A creamy base with freshly roasted chicken chunks along..",
         netWeight : "200gms",
         pieces : "200gms",
-        current_price : "₹159",
+        price : "₹159",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -56,7 +60,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -68,7 +72,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -80,7 +84,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -92,7 +96,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -104,7 +108,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -116,7 +120,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -128,7 +132,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -140,7 +144,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -152,7 +156,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -164,7 +168,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -176,7 +180,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -188,7 +192,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -200,7 +204,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -212,7 +216,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -224,7 +228,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -236,7 +240,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -248,7 +252,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -260,7 +264,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -272,7 +276,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -284,7 +288,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -296,7 +300,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -308,7 +312,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -320,7 +324,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -332,7 +336,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -344,7 +348,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -356,7 +360,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -368,7 +372,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -380,7 +384,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -392,7 +396,7 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -404,48 +408,51 @@
         discription : "Chicken wings marinated in spices & coated in panko cru...",
         netWeight : "225gms",
         pieces : "7-8",
-        current_price : "₹99",
+        price : "₹99",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
     },
 ]; 
-    var count = 0;
-    feastData.map(function(elem){
-
-        // if(count == 3){
-        //     var baner = document.createElement("div");
-        //     baner.setAttribute("class","baner");
-        //     var banerUp = document.createElement("div");
-        //     banerUp.setAttribute("class","banerUp");
-            
-        //     var banerImage = document.createElement("img");
-        //     banerImage.src = "https://www.licious.in/img/default/loyalty_licious_logo.svg";
-    
-        //     var banerbtn = document.createElement("button");
-        //     banerbtn.setAttribute("class","banerBtn");
-    
-        //     // second div of baner 
-        //     var banerDown = document.createElement("div");
-        //     banerDown.setAttribute("class","banerDown");
-    
-        //     var banerD = document.createElement("p");
-        //     banerD.setAttribute("class","banerD");
-    
-        //     count++;
-
-            
-        // }
-
-        // banerUp.append(banerImage, banerbtn)    
-        // banerDown.append(banerD)
-        // baner.append(banerUp, banerDown)
         
+displayUI(feastData1, "#main-container1") 
+banerFun()
+function banerFun(){
 
-        // for baner
-        // first div of baner
-        // ----------------------
+    var forBaner = document.querySelector("#banerId")
+    var baner = document.createElement("div");
+    baner.setAttribute("class","baner");
 
+
+    var banerUp = document.createElement("div");
+    banerUp.setAttribute("class","banerUp");
+    
+    var banerImage = document.createElement("img");
+    banerImage.src = "https://www.licious.in/img/default/loyalty_licious_logo.svg";
+
+    var banerbtn = document.createElement("button");
+    banerbtn.setAttribute("class","banerBtn");
+    banerbtn.innerText = "JOIN NOW";
+
+    // second div of baner 
+    var banerDown = document.createElement("div");
+    banerDown.setAttribute("class","banerDown");
+
+    var banerD = document.createElement("p");
+    banerD.setAttribute("class","banerD");
+    banerD.innerText = "Enjoy unlimited free delivery & perks crafted for true meat lovers";
+    
+    banerUp.append(banerImage, banerbtn)    
+    banerDown.append(banerD)
+    baner.append(banerUp, banerDown)
+    forBaner.append(baner)
+
+}
+
+displayUI(feastData, "#main-container2")
+var count  = 0;
+function displayUI(data, container){
+data.map(function(elem){
 
         var card = document.createElement("div")
         card.style.boxShadow = "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px" ; 
@@ -478,7 +485,7 @@
         netWeight_line.style.fontWeight = "bold";
 
         var currentPrice = document.createElement("p");
-        currentPrice.innerText = elem.current_price ;
+        currentPrice.innerText = elem.price ;
         currentPrice.style.color = "red";
 
         var mrp = document.createElement("p");
@@ -496,8 +503,8 @@
         var cart_btn = document.createElement("button");
         cart_btn.innerText = "Add to Cart";
         cart_btn.setAttribute("class", "add_to_cart")  
-        cart_btn.addEventListener("click", function(ele){
-            addToCartBtn(ele)
+        cart_btn.addEventListener("click", function(){
+            addToCartBtn(elem)
         })
 
         var deli_line = document.createElement("div");
@@ -518,10 +525,12 @@
         netWeight_line.append(netWt, pieces);
         price_line.append( currentPrice, mrp, discount, cart_btn);
         card.append(img, itemName, itemDes, netWeight_line, price_line, deli_line);
-        document.querySelector("#main-container").append(card);
+        document.querySelector(container).append(card);
 
 
     })
+
+}
     
     var cartData = JSON.parse(localStorage.getItem("cartData")) || [];
     function addToCartBtn(ele){

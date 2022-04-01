@@ -1,8 +1,20 @@
-spreadsData1 = [
+muttonData1 = [
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4cyjya5ry5e/34/prod_display_image/1634636466.6652--2021-10-1915:11:06--1818?format=webp",
-        name : "Chunky Butter Chicken Spread",
-        discription : "Mildly spiced chunks of freshly roasteds chicken blended",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_9etkjwyxbu8/34/prod_display_image/1634576602.0206--2021-10-1822:33:22--1818",
+        name : "Goat Curry Cut (Small)",
+        discription : "Mildly spiced chunks of freshly roasteds Mutton blended",
+        netWeight : "400gms",
+        pieces : "7-8",
+        price : "₹499",
+        mrp : "₹119",
+        discount : "17% OFF",
+        delivery_time : "Tommorow 8 AM - 10 AM",
+    },
+
+    {
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_ov2jkm3yj3e/2/prod_display_image/1589565535.8106--2020-05-1523:28:55--738?format=webp",
+        name : "Goat Shoulder Curry Cut",
+        discription : "Mildly spiced chunks of freshly roasteds Mutton blended",
         netWeight : "200gms",
         pieces : "7-8",
         price : "₹99",
@@ -12,24 +24,12 @@ spreadsData1 = [
     },
 
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4cyjya5ry5e/34/prod_display_image/1634636466.6652--2021-10-1915:11:06--1818?format=webp",
-        name : "Chunky Butter Chicken Spread",
-        discription : "Mildly spiced chunks of freshly roasteds chicken blended",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_avakgv7puul/34/prod_display_image/1631081061.9243--2021-09-0811:34:21--1818",
+        name : "Goat Curry Cut (Small) - Large Pack",
+        discription : "Mildly spiced chunks of freshly roasteds Mutton blended",
         netWeight : "200gms",
         pieces : "7-8",
-        price : "₹99",
-        mrp : "₹119",
-        discount : "17% OFF",
-        delivery_time : "Tommorow 8 AM - 10 AM",
-    },
-
-    {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4cyjya5ry5e/34/prod_display_image/1634636466.6652--2021-10-1915:11:06--1818?format=webp",
-        name : "Chunky Butter Chicken Spread",
-        discription : "Mildly spiced chunks of freshly roasteds chicken blended",
-        netWeight : "200gms",
-        pieces : "7-8",
-        price : "₹99",
+        price : "₹939",
         mrp : "₹119",
         discount : "17% OFF",
         delivery_time : "Tommorow 8 AM - 10 AM",
@@ -38,12 +38,12 @@ spreadsData1 = [
 
 ]
 
-spreadsData = [
+muttonData = [
 
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4cyjya5ry5e/34/prod_display_image/1634636466.6652--2021-10-1915:11:06--1818?format=webp",
-        name : "Chunky Butter Chicken Spread",
-        discription : "Mildly spiced chunks of freshly roasteds chicken blended",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_2phku6qunbl/34/prod_display_image/1634460656.8885--2021-10-1714:20:56--905",
+        name : "Chunky Butter Mutton Spread",
+        discription : "Mildly spiced chunks of freshly roasteds Mutton blended",
         netWeight : "200gms",
         pieces : "7-8",
         price : "₹99",
@@ -53,9 +53,9 @@ spreadsData = [
     },
 
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4cyjya5ry5e/34/prod_display_image/1634636466.6652--2021-10-1915:11:06--1818?format=webp",
-        name : "Chunky Butter Chicken Spread",
-        discription : "Mildly spiced chunks of freshly roasteds chicken blended",
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/2ad696e2-d046-e62c-2118-3280dcdd64a2/original/1587649709.9604--2020-04-2319_18_29--738.jpeg?format=webp",
+        name : "Chunky Butter Mutton Spread",
+        discription : "Mildly spiced chunks of freshly roasteds Mutton blended",
         netWeight : "200gms",
         pieces : "7-8",
         price : "₹99",
@@ -65,9 +65,9 @@ spreadsData = [
     },
 
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4cyjya5ry5e/34/prod_display_image/1634636466.6652--2021-10-1915:11:06--1818?format=webp",
-        name : "Chunky Butter Chicken Spread",
-        discription : "Mildly spiced chunks of freshly roasteds chicken blended",
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/2ad696e2-d046-e62c-2118-3280dcdd64a2/original/1587649709.9604--2020-04-2319_18_29--738.jpeg?format=webp",
+        name : "Chunky Butter Mutton Spread",
+        discription : "Mildly spiced chunks of freshly roasteds Mutton blended",
         netWeight : "200gms",
         pieces : "7-8",
         price : "₹99",
@@ -77,9 +77,9 @@ spreadsData = [
     },
 
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4cyjya5ry5e/34/prod_display_image/1634636466.6652--2021-10-1915:11:06--1818?format=webp",
-        name : "Chunky Butter Chicken Spread",
-        discription : "Mildly spiced chunks of freshly roasteds chicken blended",
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/2ad696e2-d046-e62c-2118-3280dcdd64a2/original/1587649709.9604--2020-04-2319_18_29--738.jpeg?format=webp",
+        name : "Chunky Butter Mutton Spread",
+        discription : "Mildly spiced chunks of freshly roasteds Mutton blended",
         netWeight : "200gms",
         pieces : "7-8",
         price : "₹99",
@@ -89,9 +89,9 @@ spreadsData = [
     },
 
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4cyjya5ry5e/34/prod_display_image/1634636466.6652--2021-10-1915:11:06--1818?format=webp",
-        name : "Chunky Butter Chicken Spread",
-        discription : "Mildly spiced chunks of freshly roasteds chicken blended",
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/2ad696e2-d046-e62c-2118-3280dcdd64a2/original/1587649709.9604--2020-04-2319_18_29--738.jpeg?format=webp",
+        name : "Chunky Butter Mutton Spread",
+        discription : "Mildly spiced chunks of freshly roasteds Mutton blended",
         netWeight : "200gms",
         pieces : "7-8",
         price : "₹99",
@@ -101,9 +101,9 @@ spreadsData = [
     },
 
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4cyjya5ry5e/34/prod_display_image/1634636466.6652--2021-10-1915:11:06--1818?format=webp",
-        name : "Chunky Butter Chicken Spread",
-        discription : "Mildly spiced chunks of freshly roasteds chicken blended",
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/2ad696e2-d046-e62c-2118-3280dcdd64a2/original/1587649709.9604--2020-04-2319_18_29--738.jpeg?format=webp",
+        name : "Chunky Butter Mutton Spread",
+        discription : "Mildly spiced chunks of freshly roasteds Mutton blended",
         netWeight : "200gms",
         pieces : "7-8",
         price : "₹99",
@@ -113,9 +113,9 @@ spreadsData = [
     },
 
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4cyjya5ry5e/34/prod_display_image/1634636466.6652--2021-10-1915:11:06--1818?format=webp",
-        name : "Chunky Butter Chicken Spread",
-        discription : "Mildly spiced chunks of freshly roasteds chicken blended",
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/2ad696e2-d046-e62c-2118-3280dcdd64a2/original/1587649709.9604--2020-04-2319_18_29--738.jpeg?format=webp",
+        name : "Chunky Butter Mutton Spread",
+        discription : "Mildly spiced chunks of freshly roasteds Mutton blended",
         netWeight : "200gms",
         pieces : "7-8",
         price : "₹99",
@@ -125,9 +125,9 @@ spreadsData = [
     },
 
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4cyjya5ry5e/34/prod_display_image/1634636466.6652--2021-10-1915:11:06--1818?format=webp",
-        name : "Chunky Butter Chicken Spread",
-        discription : "Mildly spiced chunks of freshly roasteds chicken blended",
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/2ad696e2-d046-e62c-2118-3280dcdd64a2/original/1587649709.9604--2020-04-2319_18_29--738.jpeg?format=webp",
+        name : "Chunky Butter Mutton Spread",
+        discription : "Mildly spiced chunks of freshly roasteds Mutton blended",
         netWeight : "200gms",
         pieces : "7-8",
         price : "₹99",
@@ -137,9 +137,9 @@ spreadsData = [
     },
 
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4cyjya5ry5e/34/prod_display_image/1634636466.6652--2021-10-1915:11:06--1818?format=webp",
-        name : "Chunky Butter Chicken Spread",
-        discription : "Mildly spiced chunks of freshly roasteds chicken blended",
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/2ad696e2-d046-e62c-2118-3280dcdd64a2/original/1587649709.9604--2020-04-2319_18_29--738.jpeg?format=webp",
+        name : "Chunky Butter Mutton Spread",
+        discription : "Mildly spiced chunks of freshly roasteds Mutton blended",
         netWeight : "200gms",
         pieces : "7-8",
         price : "₹99",
@@ -149,9 +149,9 @@ spreadsData = [
     },
 
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4cyjya5ry5e/34/prod_display_image/1634636466.6652--2021-10-1915:11:06--1818?format=webp",
-        name : "Chunky Butter Chicken Spread",
-        discription : "Mildly spiced chunks of freshly roasteds chicken blended",
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/2ad696e2-d046-e62c-2118-3280dcdd64a2/original/1587649709.9604--2020-04-2319_18_29--738.jpeg?format=webp",
+        name : "Chunky Butter Mutton Spread",
+        discription : "Mildly spiced chunks of freshly roasteds Mutton blended",
         netWeight : "200gms",
         pieces : "7-8",
         price : "₹99",
@@ -161,9 +161,9 @@ spreadsData = [
     },
 
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4cyjya5ry5e/34/prod_display_image/1634636466.6652--2021-10-1915:11:06--1818?format=webp",
-        name : "Chunky Butter Chicken Spread",
-        discription : "Mildly spiced chunks of freshly roasteds chicken blended",
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/2ad696e2-d046-e62c-2118-3280dcdd64a2/original/1587649709.9604--2020-04-2319_18_29--738.jpeg?format=webp",
+        name : "Chunky Butter Mutton Spread",
+        discription : "Mildly spiced chunks of freshly roasteds Mutton blended",
         netWeight : "200gms",
         pieces : "7-8",
         price : "₹99",
@@ -173,9 +173,9 @@ spreadsData = [
     },
 
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4cyjya5ry5e/34/prod_display_image/1634636466.6652--2021-10-1915:11:06--1818?format=webp",
-        name : "Chunky Butter Chicken Spread",
-        discription : "Mildly spiced chunks of freshly roasteds chicken blended",
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/2ad696e2-d046-e62c-2118-3280dcdd64a2/original/1587649709.9604--2020-04-2319_18_29--738.jpeg?format=webp",
+        name : "Chunky Butter Mutton Spread",
+        discription : "Mildly spiced chunks of freshly roasteds Mutton blended",
         netWeight : "200gms",
         pieces : "7-8",
         price : "₹99",
@@ -185,9 +185,9 @@ spreadsData = [
     },
 
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4cyjya5ry5e/34/prod_display_image/1634636466.6652--2021-10-1915:11:06--1818?format=webp",
-        name : "Chunky Butter Chicken Spread",
-        discription : "Mildly spiced chunks of freshly roasteds chicken blended",
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/2ad696e2-d046-e62c-2118-3280dcdd64a2/original/1587649709.9604--2020-04-2319_18_29--738.jpeg?format=webp",
+        name : "Chunky Butter Mutton Spread",
+        discription : "Mildly spiced chunks of freshly roasteds Mutton blended",
         netWeight : "200gms",
         pieces : "7-8",
         price : "₹99",
@@ -197,9 +197,9 @@ spreadsData = [
     },
 
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4cyjya5ry5e/34/prod_display_image/1634636466.6652--2021-10-1915:11:06--1818?format=webp",
-        name : "Chunky Butter Chicken Spread",
-        discription : "Mildly spiced chunks of freshly roasteds chicken blended",
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/2ad696e2-d046-e62c-2118-3280dcdd64a2/original/1587649709.9604--2020-04-2319_18_29--738.jpeg?format=webp",
+        name : "Chunky Butter Mutton Spread",
+        discription : "Mildly spiced chunks of freshly roasteds Mutton blended",
         netWeight : "200gms",
         pieces : "7-8",
         price : "₹99",
@@ -209,9 +209,9 @@ spreadsData = [
     },
 
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4cyjya5ry5e/34/prod_display_image/1634636466.6652--2021-10-1915:11:06--1818?format=webp",
-        name : "Chunky Butter Chicken Spread",
-        discription : "Mildly spiced chunks of freshly roasteds chicken blended",
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/2ad696e2-d046-e62c-2118-3280dcdd64a2/original/1587649709.9604--2020-04-2319_18_29--738.jpeg?format=webp",
+        name : "Chunky Butter Mutton Spread",
+        discription : "Mildly spiced chunks of freshly roasteds Mutton blended",
         netWeight : "200gms",
         pieces : "7-8",
         price : "₹99",
@@ -221,9 +221,9 @@ spreadsData = [
     },
 
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4cyjya5ry5e/34/prod_display_image/1634636466.6652--2021-10-1915:11:06--1818?format=webp",
-        name : "Chunky Butter Chicken Spread",
-        discription : "Mildly spiced chunks of freshly roasteds chicken blended",
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/2ad696e2-d046-e62c-2118-3280dcdd64a2/original/1587649709.9604--2020-04-2319_18_29--738.jpeg?format=webp",
+        name : "Chunky Butter Mutton Spread",
+        discription : "Mildly spiced chunks of freshly roasteds Mutton blended",
         netWeight : "200gms",
         pieces : "7-8",
         price : "₹99",
@@ -233,9 +233,9 @@ spreadsData = [
     },
 
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4cyjya5ry5e/34/prod_display_image/1634636466.6652--2021-10-1915:11:06--1818?format=webp",
-        name : "Chunky Butter Chicken Spread",
-        discription : "Mildly spiced chunks of freshly roasteds chicken blended",
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/2ad696e2-d046-e62c-2118-3280dcdd64a2/original/1587649709.9604--2020-04-2319_18_29--738.jpeg?format=webp",
+        name : "Chunky Butter Mutton Spread",
+        discription : "Mildly spiced chunks of freshly roasteds Mutton blended",
         netWeight : "200gms",
         pieces : "7-8",
         price : "₹99",
@@ -245,9 +245,9 @@ spreadsData = [
     },
 
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4cyjya5ry5e/34/prod_display_image/1634636466.6652--2021-10-1915:11:06--1818?format=webp",
-        name : "Chunky Butter Chicken Spread",
-        discription : "Mildly spiced chunks of freshly roasteds chicken blended",
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/2ad696e2-d046-e62c-2118-3280dcdd64a2/original/1587649709.9604--2020-04-2319_18_29--738.jpeg?format=webp",
+        name : "Chunky Butter Mutton Spread",
+        discription : "Mildly spiced chunks of freshly roasteds Mutton blended",
         netWeight : "200gms",
         pieces : "7-8",
         price : "₹99",
@@ -257,9 +257,9 @@ spreadsData = [
     },
 
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4cyjya5ry5e/34/prod_display_image/1634636466.6652--2021-10-1915:11:06--1818?format=webp",
-        name : "Chunky Butter Chicken Spread",
-        discription : "Mildly spiced chunks of freshly roasteds chicken blended",
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/2ad696e2-d046-e62c-2118-3280dcdd64a2/original/1587649709.9604--2020-04-2319_18_29--738.jpeg?format=webp",
+        name : "Chunky Butter Mutton Spread",
+        discription : "Mildly spiced chunks of freshly roasteds Mutton blended",
         netWeight : "200gms",
         pieces : "7-8",
         price : "₹99",
@@ -269,9 +269,9 @@ spreadsData = [
     },
 
     {
-        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4cyjya5ry5e/34/prod_display_image/1634636466.6652--2021-10-1915:11:06--1818?format=webp",
-        name : "Chunky Butter Chicken Spread",
-        discription : "Mildly spiced chunks of freshly roasteds chicken blended",
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/2ad696e2-d046-e62c-2118-3280dcdd64a2/original/1587649709.9604--2020-04-2319_18_29--738.jpeg?format=webp",
+        name : "Chunky Butter Mutton Spread",
+        discription : "Mildly spiced chunks of freshly roasteds Mutton blended",
         netWeight : "200gms",
         pieces : "7-8",
         price : "₹99",
@@ -283,7 +283,7 @@ spreadsData = [
 
 
 
-displayUI(spreadsData1, "#main-container1") 
+displayUI(muttonData1, "#main-container1") 
 banerFun()
 function banerFun(){
 
@@ -317,7 +317,7 @@ function banerFun(){
 
 }
 
-displayUI(spreadsData, "#main-container2")
+displayUI(muttonData, "#main-container2")
 var count  = 0;
 function displayUI(data, container){
 data.map(function(elem){

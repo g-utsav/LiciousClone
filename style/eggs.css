@@ -1,7 +1,19 @@
+* {
+  font-family: "Lato", sans-serif;
+  /* background-color: #f7f6f6; */
+
+}
+
+body{
+  background-color: whitesmoke;
+
+}
+
 .the-container{
-    width: 80%;
+    width: 90%;
+
     margin: auto;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .upper-line {
@@ -32,7 +44,7 @@
     border: 1px solid #585858;
     font-size: 14.5px;
     width: 250px;
-    height: 30px;
+    height: 40px;
     margin: auto;
     font-family: "Source Sans Pro", sans-serif;
     text-align: center;
@@ -40,6 +52,7 @@
     padding-top: 10px;
     padding-left: 5px;
     padding-right: 5px;
+
   }
 
   #express-deli{
@@ -49,13 +62,12 @@
 
 #express-deli > div{
     border: 1px solid black;
-    width: 100px;
-    height: 20px;
+    width: 120px;
+    height: 30px;
     background-color: white;
     color: black;
     text-align: center;
-    padding-top: 5px;
-    /* vertical-align: middle; */
+    padding: 5px;
 }
 
 select{
@@ -110,7 +122,6 @@ option{
    color: white;
    width: 100px;
    height: 35px;
-   padding: 10px 12px;
    font-size: 12px;
    border-radius: 5px;
    font-weight: bold;
@@ -123,9 +134,12 @@ option{
     /* border: 1px solid black; */
   }
 
-/* .dtime{
-    border: 1px solid red;
-} */
+.dtime{
+    /* border: 1px solid red; */
+    /* align-items: center; */
+    margin-top: 10px;
+    
+}
 
 .deli-line{
     display: flex;
@@ -137,9 +151,12 @@ option{
 }
 
 .baner{
+
+    margin-top: 30px;
     height: 110px;
     width: 800px;
     margin: auto;
+    margin-top: 20px;
     border-radius: 10px;
     background-color: #ffdc93;
     /* display: grid; */
@@ -164,8 +181,6 @@ option{
 
 .banerDown{
     height: 25px;
-    border: 1px solid brown;
-    padding: 20px;
 
 }
 
