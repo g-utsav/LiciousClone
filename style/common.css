@@ -1,12 +1,13 @@
-body{ 
+/* body{ 
     background-color: #f7f6f6;
-    font-family: sans-serif;
-}
+    font-family: sans-serif; */
+/* } */
 #container{
     width: 85%;
     margin: auto;
     border: 0px solid red;
     box-sizing: border-box;
+    font-family: sans-serif;
     /* background-color: red; */
 }.div1a{
     display: grid;
@@ -56,6 +57,10 @@ body{
     margin-top: 30px;
     margin-bottom: 30px;
     color: rgb(71, 68, 68);
+}.boxb1>p{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis ;
 }.boxb2>p{
     text-overflow:ellipsis ;
     overflow: hidden;
