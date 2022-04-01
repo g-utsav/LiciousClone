@@ -1,10 +1,10 @@
 eggsData1 = [
     
     {
-        image_url : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/9b68df08-94fe-02c0-569f-5b336bdba485/original/1574118852.2303--2019-11-1904_44_12--260.jpeg?format=webp",
-        item_name : "Classic Eggs Pack of 6",
-        item_des : "pack of 6 naturally laid, white eggs from healthy hens",
-        net_wt : "250gms",
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/9b68df08-94fe-02c0-569f-5b336bdba485/original/1574118852.2303--2019-11-1904_44_12--260.jpeg?format=webp",
+        name : "Classic Eggs Pack of 6",
+        discription : "pack of 6 naturally laid, white eggs from healthy hens",
+        netWeight : "250gms",
         pieces : "6",
         current_price : "₹44",
         mrp : "₹119",
@@ -13,10 +13,10 @@ eggsData1 = [
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_as7ki5xe5ts/34/prod_display_image/1608296147.339--2020-12-1818:25:47--472",
-        item_name : "Classic Eggs Pack of 12",
-        item_des : "pack of 6 naturally laid, white eggs from healthy hens",
-        net_wt : "500gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_as7ki5xe5ts/34/prod_display_image/1608296147.339--2020-12-1818:25:47--472",
+        name : "Classic Eggs Pack of 12",
+        discription : "pack of 6 naturally laid, white eggs from healthy hens",
+        netWeight : "500gms",
         pieces : "12",
         current_price : "₹109",
         mrp : "₹119",
@@ -25,10 +25,10 @@ eggsData1 = [
     },
 
     {
-        image_url : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/335d0117-0716-fee7-3370-12c5fca928de/original/1583852613.2809--2020-03-1020_33_33--472.jpeg?format=webp",
-        item_name : "Classic Eggs Pack of 30",
-        item_des : "pack of 6 naturally laid, white eggs from healthy hens",
-        net_wt : "500gms",
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/335d0117-0716-fee7-3370-12c5fca928de/original/1583852613.2809--2020-03-1020_33_33--472.jpeg?format=webp",
+        name : "Classic Eggs Pack of 30",
+        discription : "pack of 6 naturally laid, white eggs from healthy hens",
+        netWeight : "500gms",
         pieces : "30",
         current_price : "₹269",
         mrp : "₹119",
@@ -39,10 +39,10 @@ eggsData1 = [
 
 eggsData = [
     {
-        image_url : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/81f3aff6-3e28-225b-d400-4ab557418610/original/1583943132.4788--2020-03-1121_42_12--738.jpeg?format=webp",
-        item_name : "Eggs - Brown Residue Free(Pack of 6)",
-        item_des : "pack of 6 naturally laid, white eggs from healthy hens",
-        net_wt : "500gms",
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/81f3aff6-3e28-225b-d400-4ab557418610/original/1583943132.4788--2020-03-1121_42_12--738.jpeg?format=webp",
+        name : "Eggs - Brown Residue Free(Pack of 6)",
+        discription : "pack of 6 naturally laid, white eggs from healthy hens",
+        netWeight : "500gms",
         pieces : "6",
         current_price : "₹95",
         mrp : "₹119",
@@ -51,10 +51,10 @@ eggsData = [
     },
 
     {
-        image_url : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/afc82bec-a93a-ed62-f2f0-9de1ed82a211/original/1595562713.988--2020-07-2409_21_53--472.jpeg?format=webp",
-        item_name : "Eggs - Country Eggs (Pack of 6)",
-        item_des : "pack of 6 naturally laid, white eggs from healthy hens",
-        net_wt : "500gms",
+        image : "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/afc82bec-a93a-ed62-f2f0-9de1ed82a211/original/1595562713.988--2020-07-2409_21_53--472.jpeg?format=webp",
+        name : "Eggs - Country Eggs (Pack of 6)",
+        discription : "pack of 6 naturally laid, white eggs from healthy hens",
+        netWeight : "500gms",
         pieces : "6",
         current_price : "₹75",
         mrp : "₹119",
@@ -138,29 +138,29 @@ data.map(function(elem){
     // card.style.padding = "15px";
 
     var img = document.createElement("img");
-    img.src = elem.image_url ;
+    img.src = elem.image ;
     img.style.width = "100%";
     img.style.height = "240px"
     img.style.borderRadius = "10px 10px 0px 0px ";
 
     var itemName = document.createElement("p");
-    itemName.innerText = elem.item_name ;
+    itemName.innerText = elem.name ;
     itemName.style.fontWeight = "bold";
     itemName.style.padding = "10px";
     
     var itemDes = document.createElement("p");
-    itemDes.innerText = elem.item_des ;
+    itemDes.innerText = elem.discription ;
     itemDes.style.padding = "10px";
 
     var netWt = document.createElement("p");
-    netWt.innerText = "Net wt : " + elem.net_wt ;
+    netWt.innerText = "Net wt : " + elem.netWeight ;
 
     var pieces = document.createElement("p");
     pieces.innerText = "Pieces : " + elem.pieces ;
 
-    var net_wt_line = document.createElement("div")
-    net_wt_line.className = "net-wt-line";
-    net_wt_line.style.fontWeight = "bold";
+    var netWeight_line = document.createElement("div")
+    netWeight_line.className = "net-wt-line";
+    netWeight_line.style.fontWeight = "bold";
 
     var currentPrice = document.createElement("p");
     currentPrice.innerText = elem.current_price ;
@@ -200,9 +200,9 @@ data.map(function(elem){
 
 
     deli_line.append(d_img,d_time)
-    net_wt_line.append(netWt, pieces);
+    netWeight_line.append(netWt, pieces);
     price_line.append( currentPrice, mrp, discount, cart_btn);
-    card.append(img, itemName, itemDes, net_wt_line, price_line, deli_line);
+    card.append(img, itemName, itemDes, netWeight_line, price_line, deli_line);
     document.querySelector(container).append(card);
 
    

@@ -2,11 +2,11 @@
   feastData = [
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
         
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -15,10 +15,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4rqjek3ovjp/34/prod_display_image/1634299413.2321--2021-10-1517:33:33--905?format=webp",
-        item_name : "Sichuan Chilli Chicken | Ready to Cook",
-        item_des : "Boneless chicken in an Indo-chinese marinade",
-        net_wt : "500gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4rqjek3ovjp/34/prod_display_image/1634299413.2321--2021-10-1517:33:33--905?format=webp",
+        name : "Sichuan Chilli Chicken | Ready to Cook",
+        discription : "Boneless chicken in an Indo-chinese marinade",
+        netWeight : "500gms",
         pieces : "22-24",
         current_price : "₹299",
         mrp : "₹219",
@@ -27,10 +27,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_id9jjmp0h34/34/prod_display_image/1634297078.8474--2021-10-1516:54:38--905?format=webp",
-        item_name : "Chicken Drumstick",
-        item_des : "Skinless , Bone-in, juicy meat from the lower leg with a .....",
-        net_wt : "500gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_id9jjmp0h34/34/prod_display_image/1634297078.8474--2021-10-1516:54:38--905?format=webp",
+        name : "Chicken Drumstick",
+        discription : "Skinless , Bone-in, juicy meat from the lower leg with a .....",
+        netWeight : "500gms",
         pieces : "666gms",
         current_price : "₹252",
         mrp : "₹265",
@@ -39,10 +39,10 @@
     },
 
     {
-        image_url : "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/f9de17db-1263-4d79-8600-477f07c24a6e/original/Chunky-Shawarma-Chicken-Spread_(7).jpg?format=webp",
-        item_name : "Chunky Shawarma Chicken Spread",
-        item_des : "A creamy base with freshly roasted chicken chunks along..",
-        net_wt : "200gms",
+        image : "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/f9de17db-1263-4d79-8600-477f07c24a6e/original/Chunky-Shawarma-Chicken-Spread_(7).jpg?format=webp",
+        name : "Chunky Shawarma Chicken Spread",
+        discription : "A creamy base with freshly roasted chicken chunks along..",
+        netWeight : "200gms",
         pieces : "200gms",
         current_price : "₹159",
         mrp : "₹119",
@@ -51,10 +51,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -63,10 +63,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -75,10 +75,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -87,10 +87,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -99,10 +99,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -111,10 +111,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -123,10 +123,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -135,10 +135,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -147,10 +147,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -159,10 +159,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -171,10 +171,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -183,10 +183,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -195,10 +195,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -207,10 +207,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -219,10 +219,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -231,10 +231,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -243,10 +243,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -255,10 +255,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -267,10 +267,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -279,10 +279,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -291,10 +291,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -303,10 +303,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -315,10 +315,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -327,10 +327,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -339,10 +339,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -351,10 +351,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -363,10 +363,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -375,10 +375,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -387,10 +387,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -399,10 +399,10 @@
     },
 
     {
-        image_url : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
-        item_name : "Crispy Chicken Wings | Ready to Cook",
-        item_des : "Chicken wings marinated in spices & coated in panko cru...",
-        net_wt : "225gms",
+        image : "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+        name : "Crispy Chicken Wings | Ready to Cook",
+        discription : "Chicken wings marinated in spices & coated in panko cru...",
+        netWeight : "225gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -453,29 +453,29 @@
         // card.style.padding = "15px";
 
         var img = document.createElement("img");
-        img.src = elem.image_url ;
+        img.src = elem.image ;
         img.style.width = "100%";
         img.style.height = "240px"
         img.style.borderRadius = "10px 10px 0px 0px ";
 
         var itemName = document.createElement("p");
-        itemName.innerText = elem.item_name ;
+        itemName.innerText = elem.name ;
         itemName.style.fontWeight = "bold";
         itemName.style.padding = "10px";
         
         var itemDes = document.createElement("p");
-        itemDes.innerText = elem.item_des ;
+        itemDes.innerText = elem.discription ;
         itemDes.style.padding = "10px";
 
         var netWt = document.createElement("p");
-        netWt.innerText = "Net wt : " + elem.net_wt ;
+        netWt.innerText = "Net wt : " + elem.netWeight ;
 
         var pieces = document.createElement("p");
         pieces.innerText = "Pieces : " + elem.pieces ;
 
-        var net_wt_line = document.createElement("div")
-        net_wt_line.className = "net-wt-line";
-        net_wt_line.style.fontWeight = "bold";
+        var netWeight_line = document.createElement("div")
+        netWeight_line.className = "net-wt-line";
+        netWeight_line.style.fontWeight = "bold";
 
         var currentPrice = document.createElement("p");
         currentPrice.innerText = elem.current_price ;
@@ -515,9 +515,9 @@
 
 
         deli_line.append(d_img,d_time)
-        net_wt_line.append(netWt, pieces);
+        netWeight_line.append(netWt, pieces);
         price_line.append( currentPrice, mrp, discount, cart_btn);
-        card.append(img, itemName, itemDes, net_wt_line, price_line, deli_line);
+        card.append(img, itemName, itemDes, netWeight_line, price_line, deli_line);
         document.querySelector("#main-container").append(card);
 
 

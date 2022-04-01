@@ -1,9 +1,9 @@
 coldData = [
     {
-        image_url : "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/8f95b785-e216-ed38-b77b-697f3512873a/original/Chicken-Sausage-&-Salami-1.jpg?format=webp",
-        item_name : "Cold Cut Combo - Chicken Sausages & Salami",
-        item_des : " 8 - 11 pieces of breakfast sausages & peppery salami",
-        net_wt : "200gms",
+        image : "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/8f95b785-e216-ed38-b77b-697f3512873a/original/Chicken-Sausage-&-Salami-1.jpg?format=webp",
+        name : "Cold Cut Combo - Chicken Sausages & Salami",
+        discription : " 8 - 11 pieces of breakfast sausages & peppery salami",
+        netWeight : "200gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -12,10 +12,10 @@ coldData = [
     },
 
     {
-        image_url : "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/8f95b785-e216-ed38-b77b-697f3512873a/original/Chicken-Sausage-&-Salami-1.jpg?format=webp",
-        item_name : "Cold Cut Combo - Chicken Sausages & Salami",
-        item_des : " 8 - 11 pieces of breakfast sausages & peppery salami",
-        net_wt : "200gms",
+        image : "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/8f95b785-e216-ed38-b77b-697f3512873a/original/Chicken-Sausage-&-Salami-1.jpg?format=webp",
+        name : "Cold Cut Combo - Chicken Sausages & Salami",
+        discription : " 8 - 11 pieces of breakfast sausages & peppery salami",
+        netWeight : "200gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -24,10 +24,10 @@ coldData = [
     },
 
     {
-        image_url : "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/8f95b785-e216-ed38-b77b-697f3512873a/original/Chicken-Sausage-&-Salami-1.jpg?format=webp",
-        item_name : "Cold Cut Combo - Chicken Sausages & Salami",
-        item_des : " 8 - 11 pieces of breakfast sausages & peppery salami",
-        net_wt : "200gms",
+        image : "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/8f95b785-e216-ed38-b77b-697f3512873a/original/Chicken-Sausage-&-Salami-1.jpg?format=webp",
+        name : "Cold Cut Combo - Chicken Sausages & Salami",
+        discription : " 8 - 11 pieces of breakfast sausages & peppery salami",
+        netWeight : "200gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -36,10 +36,10 @@ coldData = [
     },
 
     {
-        image_url : "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/8f95b785-e216-ed38-b77b-697f3512873a/original/Chicken-Sausage-&-Salami-1.jpg?format=webp",
-        item_name : "Cold Cut Combo - Chicken Sausages & Salami",
-        item_des : " 8 - 11 pieces of breakfast sausages & peppery salami",
-        net_wt : "200gms",
+        image : "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/8f95b785-e216-ed38-b77b-697f3512873a/original/Chicken-Sausage-&-Salami-1.jpg?format=webp",
+        name : "Cold Cut Combo - Chicken Sausages & Salami",
+        discription : " 8 - 11 pieces of breakfast sausages & peppery salami",
+        netWeight : "200gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -48,10 +48,10 @@ coldData = [
     },
 
     {
-        image_url : "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/8f95b785-e216-ed38-b77b-697f3512873a/original/Chicken-Sausage-&-Salami-1.jpg?format=webp",
-        item_name : "Cold Cut Combo - Chicken Sausages & Salami",
-        item_des : " 8 - 11 pieces of breakfast sausages & peppery salami",
-        net_wt : "200gms",
+        image : "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/8f95b785-e216-ed38-b77b-697f3512873a/original/Chicken-Sausage-&-Salami-1.jpg?format=webp",
+        name : "Cold Cut Combo - Chicken Sausages & Salami",
+        discription : " 8 - 11 pieces of breakfast sausages & peppery salami",
+        netWeight : "200gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -60,10 +60,10 @@ coldData = [
     },
 
     {
-        image_url : "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/8f95b785-e216-ed38-b77b-697f3512873a/original/Chicken-Sausage-&-Salami-1.jpg?format=webp",
-        item_name : "Cold Cut Combo - Chicken Sausages & Salami",
-        item_des : " 8 - 11 pieces of breakfast sausages & peppery salami",
-        net_wt : "200gms",
+        image : "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/8f95b785-e216-ed38-b77b-697f3512873a/original/Chicken-Sausage-&-Salami-1.jpg?format=webp",
+        name : "Cold Cut Combo - Chicken Sausages & Salami",
+        discription : " 8 - 11 pieces of breakfast sausages & peppery salami",
+        netWeight : "200gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -73,10 +73,10 @@ coldData = [
 
 
     {
-        image_url : "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/8f95b785-e216-ed38-b77b-697f3512873a/original/Chicken-Sausage-&-Salami-1.jpg?format=webp",
-        item_name : "Cold Cut Combo - Chicken Sausages & Salami",
-        item_des : " 8 - 11 pieces of breakfast sausages & peppery salami",
-        net_wt : "200gms",
+        image : "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/8f95b785-e216-ed38-b77b-697f3512873a/original/Chicken-Sausage-&-Salami-1.jpg?format=webp",
+        name : "Cold Cut Combo - Chicken Sausages & Salami",
+        discription : " 8 - 11 pieces of breakfast sausages & peppery salami",
+        netWeight : "200gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -85,10 +85,10 @@ coldData = [
     },
 
     {
-        image_url : "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/8f95b785-e216-ed38-b77b-697f3512873a/original/Chicken-Sausage-&-Salami-1.jpg?format=webp",
-        item_name : "Cold Cut Combo - Chicken Sausages & Salami",
-        item_des : " 8 - 11 pieces of breakfast sausages & peppery salami",
-        net_wt : "200gms",
+        image : "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/8f95b785-e216-ed38-b77b-697f3512873a/original/Chicken-Sausage-&-Salami-1.jpg?format=webp",
+        name : "Cold Cut Combo - Chicken Sausages & Salami",
+        discription : " 8 - 11 pieces of breakfast sausages & peppery salami",
+        netWeight : "200gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -97,10 +97,10 @@ coldData = [
     },
 
     {
-        image_url : "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/8f95b785-e216-ed38-b77b-697f3512873a/original/Chicken-Sausage-&-Salami-1.jpg?format=webp",
-        item_name : "Cold Cut Combo - Chicken Sausages & Salami",
-        item_des : " 8 - 11 pieces of breakfast sausages & peppery salami",
-        net_wt : "200gms",
+        image : "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/8f95b785-e216-ed38-b77b-697f3512873a/original/Chicken-Sausage-&-Salami-1.jpg?format=webp",
+        name : "Cold Cut Combo - Chicken Sausages & Salami",
+        discription : " 8 - 11 pieces of breakfast sausages & peppery salami",
+        netWeight : "200gms",
         pieces : "7-8",
         current_price : "₹99",
         mrp : "₹119",
@@ -119,29 +119,29 @@ coldData.map(function(elem){
     // card.style.padding = "15px";
 
     var img = document.createElement("img");
-    img.src = elem.image_url ;
+    img.src = elem.image ;
     img.style.width = "100%";
     img.style.height = "240px"
     img.style.borderRadius = "10px 10px 0px 0px ";
 
     var itemName = document.createElement("p");
-    itemName.innerText = elem.item_name ;
+    itemName.innerText = elem.name ;
     itemName.style.fontWeight = "bold";
     itemName.style.padding = "10px";
     
     var itemDes = document.createElement("p");
-    itemDes.innerText = elem.item_des ;
+    itemDes.innerText = elem.discription ;
     itemDes.style.padding = "10px";
 
     var netWt = document.createElement("p");
-    netWt.innerText = "Net wt : " + elem.net_wt ;
+    netWt.innerText = "Net wt : " + elem.netWeight ;
 
     var pieces = document.createElement("p");
     pieces.innerText = "Pieces : " + elem.pieces ;
 
-    var net_wt_line = document.createElement("div")
-    net_wt_line.className = "net-wt-line";
-    net_wt_line.style.fontWeight = "bold";
+    var netWeight_line = document.createElement("div")
+    netWeight_line.className = "net-wt-line";
+    netWeight_line.style.fontWeight = "bold";
 
     var currentPrice = document.createElement("p");
     currentPrice.innerText = elem.current_price ;
@@ -181,9 +181,9 @@ coldData.map(function(elem){
 
 
     deli_line.append(d_img,d_time)
-    net_wt_line.append(netWt, pieces);
+    netWeight_line.append(netWt, pieces);
     price_line.append( currentPrice, mrp, discount, cart_btn);
-    card.append(img, itemName, itemDes, net_wt_line, price_line, deli_line);
+    card.append(img, itemName, itemDes, netWeight_line, price_line, deli_line);
     document.querySelector("#main-container").append(card);
 
     // var cartData = JSON.parse(localStorage.getItem("cartData")) || [];

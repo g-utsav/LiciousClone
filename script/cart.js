@@ -1,5 +1,4 @@
 var ranData = JSON.parse(localStorage.getItem("cartData")) || [];
-
 var data = [];
 
 var obj = {};
