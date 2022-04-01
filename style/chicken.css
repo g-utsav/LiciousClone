@@ -1,0 +1,66 @@
+#about-chicken {
+        
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    /* border: 1px solid yellowgreen; */
+    margin: auto;
+    margin-top: 20px;
+    justify-content: center;
+    line-height: 20px;
+  }
+
+  #left-pane {
+    background-color: white;
+    width: 900px;
+    /* border: 1px solid red; */
+    font-family: "Roboto", sans-serif;
+    font-size:13px;
+    padding: 10px;
+
+  }
+
+  #right-pane {
+    background-color: white;
+    width: 450px;
+    /* border: 1px solid blue; */
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    line-height: normal;
+    color: grey;
+    padding-top: 45px;
+  }
+
+  .list {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+  li {
+    margin-top: 10px;
+    margin-left: -20px;
+  }
+  .no-style {
+    list-style-type: none;
+    margin-left: -40px;
+    margin-top: 10px;
+  }
+
+  .faq-des {
+    margin-top: 10px;
+  }
+
+  table{
+    margin: auto;
+  }
+
+  th, td{
+    padding: 10px 10px 10px 20px;
+    border-bottom: 1px solid black;
+  }
+
+  .last-line{
+    text-align: center;
+    font-style: italic;
+  }
