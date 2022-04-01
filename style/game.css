@@ -1,0 +1,120 @@
+#upper-content{
+    margin: auto;
+    margin-top: 200px;
+    width: 80%;
+    height: 150px;
+}
+
+#express-deli{
+    display: flex;
+    gap: 20px;
+}
+
+#express-deli > div{
+    border: 1px solid black;
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    /* vertical-align: middle; */
+}
+
+select{
+    border: none;
+    font-size: 11px;
+}
+
+#main-container{
+    width: 1150px;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: repeat(12, 450px); */
+    gap: 25px;
+}
+
+.price-line{
+    margin-top: -5px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+}
+
+.net-wt-line{
+    padding-left: 10px;
+    margin-top: -10px;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.add_to_cart{
+   background-color: #E41D36;
+   color: white;
+   width: 100px;
+   height: 35px;
+   padding: 10px 12px;
+   font-size: 12px;
+   border-radius: 5px;
+   font-weight: bold;
+
+}
+
+.deli-img{
+    width: 20px;
+    height: 20px;
+    /* border: 1px solid black; */
+  }
+
+/* .dtime{
+    border: 1px solid red;
+} */
+
+.deli-line{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    /* border: 1px solid blue; */
+}
+/* 
+.baner{
+    height: 110px;
+    width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #ffdc93;
+}
+
+.banerUp{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.banerBtn{
+    height: 35px;
+    width: 106px;
+    background-color: rgba(255, 0, 0, 0.435);
+    color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.banerDown{
+    height: 25px;
+    border: 1px solid brown;
+    padding: 20px;
+
+}
+
+.banerD{
+  margin-top: -5px;  
+  padding: 10px;
+} */
