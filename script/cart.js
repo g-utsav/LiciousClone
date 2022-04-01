@@ -63,22 +63,46 @@ function slider(event){
 // cartDiv.innerHTML = "";
 console.log(data)
 data.map(function(ele,index){
-    console.log("sdfjksfjd")
     var div123 = document.createElement("div")
     div123.setAttribute("id","productDetailsCart")
-
+    
     var product = document.createElement("div")
     product.setAttribute("class","D9999999")
     var itemCart = document.createElement("div")
+    itemCart.setAttribute("class","D8888888")
+
     
     var nameDiv =document.createElement("div")
     nameDiv.innerText = ele.name
     var closeDiv = document.createElement("div")
     closeDiv.innerHTML= "<h3>X</h3>"
     closeDiv.addEventListener("click",reMapData)
+    
+    var priceCart =document.createElement("div")
+    priceCart.innerText = `₹${ele.price}`
+    
 
+
+    var itemAddRemove =document.createElement("div")
+    itemAddRemove.setAttribute("class","itemAddRemove")
+
+    var plus =document.createElement("div")
+    plus.innerText = "+"
+    var min =document.createElement("div")
+    min.innerText = "-"
+    var itemCount =document.createElement("div")
+    itemCount.innerText = ele.count
+
+    itemAddRemove.append(min,itemCount,plus)
+
+    
+    console.log(itemCount)
+    
+    
+    
     product.append(nameDiv,closeDiv);
-    div123.append(product)
+    itemCart.append(priceCart,itemAddRemove)
+    div123.append(product,itemCart)
     cartDiv.append(div123)
 })
 // }
