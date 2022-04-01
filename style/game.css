@@ -12,7 +12,7 @@ body{
 
 
 .the-container{
-    width: 90%;
+    width: 1150px;
     height: auto;
     margin: auto;
     margin-top: 100px;
@@ -63,7 +63,7 @@ body{
 
 #express-deli > div{
     border: 1px solid black;
-    width: 100px;
+    width: 120px;
     height: 30px;
     background-color: white;
     color: black;
