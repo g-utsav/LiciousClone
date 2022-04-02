@@ -1,0 +1,31 @@
+#container{
+    width: 30%;
+    margin: auto;
+}
+#form>div,#otpdiv{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    width: 100%;
+    margin-top: 6%;
+    padding: 8px;
+}
+#form>div>input{
+    width: 50%;
+    margin-left: 4%;
+}
+h1,h2{
+    text-align: center;
+}
+#pay{
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 42%;
+    margin-top: 8%;
+}
+#otpdiv{
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 30%;
+}

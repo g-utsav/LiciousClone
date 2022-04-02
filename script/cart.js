@@ -180,7 +180,7 @@ function closeCall(){
     projectCart.style.height = "0px"
     genData()
     displayCart(data,false)
-    window.location.reload()
+    // window.location.reload()
 
 
 }
