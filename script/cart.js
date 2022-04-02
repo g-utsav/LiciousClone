@@ -151,6 +151,7 @@ data.map(function(ele,index){
     toatalAmount.setAttribute("class","totalPriceToDisplay")
     var placeOrder = document.createElement("div")
     placeOrder.innerText="Proceed To CheckOut"
+    placeOrder.addEventListener("click",payment)
 
     endDiv.append(toatalAmount,placeOrder)
     div.append(h1div,cartDiv,endDiv)
@@ -159,6 +160,8 @@ data.map(function(ele,index){
     projectCart.style.backgroundColor = "rgb(128,128,128,0.5)"
     projectCart.style.width = "100%"
     projectCart.style.height = "100%"
+    localStorage.setItem("cartData1",JSON.stringify(data))
+
     totalPriceToDisplay()
 }
 
@@ -205,15 +208,36 @@ function reMapData(index){
 function incriment(ele,index,cc){
     var inc = document.querySelector(`#${cc}`)
     // var inc = event.target
-    // console.log(inc)
+    // console.log(ele)
     inc.innerText = Number(inc.innerText)+1;
-    // ele["count"] = inc.innerText
-    var dat = JSON.parse(localStorage.getItem("cartData"))
+    ele["count"] = inc.innerText
+    var dat = JSON.parse(localStorage.getItem("cartData1"))
+    console.log(dat,index)
     dat[index]["count"] = inc.innerText;
-    localStorage.setItem("cartData",JSON.stringify(dat))
+    // localStorage.setItem("cartData",JSON.stringify(dat))
     localStorage.setItem("cartData1",JSON.stringify(dat))
+    // console.log(ele)
+    // updateCartData(dat)
     totalPriceToDisplay()
 }
+
+// function updateCartData(dat){
+//   var dta = [];
+
+//     dat.map(function(ele,inde){
+//         for(var i=0; i<Number(ele.count);i++){
+//             var q = Object.assign({},ele)
+//             q["count"] =1
+//             dta.push(q);
+//             // console.log(q,ele)
+//         }
+//     })
+//     localStorage.setItem("cartData",JSON.stringify(dta))
+//     genData()
+
+
+// }
+
 
 
 function decremnet(ele,index,cc){
@@ -221,30 +245,38 @@ function decremnet(ele,index,cc){
     // console.log(cc)
     dec.innerText = Number(dec.innerText)-1;
     ele["count"] = dec.innerText
-    var dat = JSON.parse(localStorage.getItem("cartData"))
+    var dat = JSON.parse(localStorage.getItem("cartData1"))
     dat[index]["count"] = dec.innerText;
-    localStorage.setItem("cartData",JSON.stringify(dat))
+    // localStorage.setItem("cartData",JSON.stringify(dat))
     localStorage.setItem("cartData1",JSON.stringify(dat))
-    // console.log(ele,data)
+
     if(dec.innerText == 0){
         reMapData(index);
     }
+    // updateCartData(dat)
     totalPriceToDisplay()
 }
 
 
 
 
-// totalPriceToDisplay()
+totalPriceToDisplay()
 function totalPriceToDisplay(){
     var totalPrice = document.querySelector(".totalPriceToDisplay")
     var dat = JSON.parse(localStorage.getItem("cartData1"))
     var sum = 0
+    
     dat.forEach(function(element){
         // console.log(1+Number(element["count"]))
          sum += Number(element["count"])*Number(element["price"])
+        //  console.log(sum,element["count"])
     })
-    totalPrice.innerText = `Total : ${sum}`
-    console.log(sum)
 
+if(Boolean(totalPrice)) totalPrice.innerText = `Total : ${sum}`
+
+}
+
+
+function payment(){
+    window.location.href = "./html/payments.html"
 }
