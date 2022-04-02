@@ -524,6 +524,7 @@ function displayGridElement(data){
 var cartData = JSON.parse(localStorage.getItem("cartData")) || [];
 function addToCartButtonClick(ele){
     var b;
+    cartData = JSON.parse(localStorage.getItem("cartData")) || []
     var count = cartData.length;
     count++
     cartData.push(ele)

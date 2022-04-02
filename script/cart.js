@@ -26,6 +26,9 @@ for(var key in obj){
 }
 
 genData()
+
+localStorage.setItem("cartData1",JSON.stringify(data))
+
 displayCart(data,false)
 console.log(data)
 
@@ -35,7 +38,7 @@ console.log(data)
 
 
 function displayCart(data,flag){
-    genData()
+    // genData()
     var cart = document.querySelector(".cart123456")
     cart.addEventListener("click",slider);
     projectCart = document.querySelector(".cartSlide")
@@ -46,8 +49,8 @@ function displayCart(data,flag){
         cart.dispatchEvent(cl)
     }
     
-    // genData()
     function slider(event){
+        genData()
         projectCart.innerHTML = ""
     var div = document.createElement("div")
     div.setAttribute("class","cartSlider");
@@ -78,6 +81,7 @@ function displayCart(data,flag){
 // var cartContainer = document.querySelector(".cartSliding");
 // cartDiv.innerHTML = "";
 // console.log(data)
+var cc = 0
 data.map(function(ele,index){
     var div123 = document.createElement("div")
     div123.setAttribute("id","productDetailsCart")
@@ -102,17 +106,28 @@ data.map(function(ele,index){
 
     var itemAddRemove =document.createElement("div")
     itemAddRemove.setAttribute("class","itemAddRemove")
+    
+    var itemCount =document.createElement("div")
+    itemCount.innerText = ele.count
+    var setid =`theCountOfItems${cc}`
+    itemCount.setAttribute("id",setid)
 
     var plus =document.createElement("div")
     plus.innerText = "+"
+    plus.setAttribute("class","incrementTheCount")
+    plus.addEventListener("click",function(){
+        incriment(ele,index,setid)
+    })
     var min =document.createElement("div")
     min.innerText = "-"
-    var itemCount =document.createElement("div")
-    itemCount.innerText = ele.count
+    min.setAttribute("class","decrementTheCount")
+    min.addEventListener("click",function(){
+        decremnet(ele,index,setid)
+    })
 
     itemAddRemove.append(min,itemCount,plus)
 
-    
+    cc++
     //console.log(itemCount)
     
     
@@ -133,6 +148,7 @@ data.map(function(ele,index){
 
     var toatalAmount = document.createElement("div")
     toatalAmount.innerText = "Total : "
+    toatalAmount.setAttribute("class","totalPriceToDisplay")
     var placeOrder = document.createElement("div")
     placeOrder.innerText="Proceed To CheckOut"
 
@@ -140,9 +156,10 @@ data.map(function(ele,index){
     div.append(h1div,cartDiv,endDiv)
     
     projectCart.append(div)
-//     projectCart.style.backgroundColor = "rgb(128,128,128,0.5)"
-//     projectCart.style.width = "100%"
-//     projectCart.style.height = "100%"
+    projectCart.style.backgroundColor = "rgb(128,128,128,0.5)"
+    projectCart.style.width = "100%"
+    projectCart.style.height = "100%"
+    totalPriceToDisplay()
 }
 
 }
@@ -163,6 +180,7 @@ function closeCall(){
     projectCart.style.height = "0px"
     genData()
     displayCart(data,false)
+    window.location.reload()
 
 
 }
@@ -171,5 +189,62 @@ data= JSON.parse(localStorage.getItem("cartData"))||[]
 function reMapData(index){
     data.splice(index,1)
     localStorage.setItem("cartData",JSON.stringify(data))
+    // genData()
+    localStorage.setItem("cartData1",JSON.stringify(data))
     displayCart(data,true)
+    totalPriceToDisplay()
+}
+
+// function incriment(ele){
+//     ele["count"]++
+//     displayCart(data,true)
+//     console.log(ele)
+//     // localStorage.setItem("cartData1",JSON.stringify(data))
+// }
+
+function incriment(ele,index,cc){
+    var inc = document.querySelector(`#${cc}`)
+    // var inc = event.target
+    // console.log(inc)
+    inc.innerText = Number(inc.innerText)+1;
+    // ele["count"] = inc.innerText
+    var dat = JSON.parse(localStorage.getItem("cartData"))
+    dat[index]["count"] = inc.innerText;
+    localStorage.setItem("cartData",JSON.stringify(dat))
+    localStorage.setItem("cartData1",JSON.stringify(dat))
+    totalPriceToDisplay()
+}
+
+
+function decremnet(ele,index,cc){
+    var dec = document.querySelector(`#${cc}`)
+    // console.log(cc)
+    dec.innerText = Number(dec.innerText)-1;
+    ele["count"] = dec.innerText
+    var dat = JSON.parse(localStorage.getItem("cartData"))
+    dat[index]["count"] = dec.innerText;
+    localStorage.setItem("cartData",JSON.stringify(dat))
+    localStorage.setItem("cartData1",JSON.stringify(dat))
+    // console.log(ele,data)
+    if(dec.innerText == 0){
+        reMapData(index);
+    }
+    totalPriceToDisplay()
+}
+
+
+
+
+// totalPriceToDisplay()
+function totalPriceToDisplay(){
+    var totalPrice = document.querySelector(".totalPriceToDisplay")
+    var dat = JSON.parse(localStorage.getItem("cartData1"))
+    var sum = 0
+    dat.forEach(function(element){
+        // console.log(1+Number(element["count"]))
+         sum += Number(element["count"])*Number(element["price"])
+    })
+    totalPrice.innerText = `Total : ${sum}`
+    console.log(sum)
+
 }
