@@ -340,7 +340,7 @@ function displaySlidingUI(data, container,start){
         
         var price = document.createElement("h3");//Holds the price of the product
         price.setAttribute("class","priceMRP");
-        price.innerText = ""+ele.price
+        price.innerText = "₹"+ele.price
         
         var strikedOffPrice = document.createElement("p");//Holds the striked off Price
         strikedOffPrice.setAttribute("class","strikedOffPrice")
