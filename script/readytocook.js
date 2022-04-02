@@ -1,5 +1,4 @@
 var div2Data=
-<<<<<<< HEAD
 [{image:"https:d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
 name:"Crispy Chicken Wings | Ready To Cook",
 description:"Chicken wings marinated in spices &amp; coated in panko crumbs",
@@ -34,10 +33,6 @@ logo:"https://www.licious.in/img/default/express_delivery.svg",
 time:"Today in 90 min"
 }
 ]
-=======
-[{"image":"https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818","name":"Crispy Chicken Wings | Ready To Cook","discription":"Chicken wings marinated in spices & coated in panko cru...","netWeight":"Net wt: 225gms","grossWeight":"Pieces: 7-8","price":"99","strikedOffPrice":"MRP: 119","discount":"17% OFF","logo":"https://www.licious.in/img/default/express_delivery.svg","delivery":"Today in 90 min"},{"image":"https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_cckksu32sb1/34/prod_display_image/1635341657.7331--2021-10-2719:04:17--1818","name":"Crispy Chicken Supreme | Ready To Cook","discription":"Panko crumb-coated chicken tenders, ready in 8 minutes!","netWeight":"Net wt: 250gms","grossWeight":"Pieces: 4-5","price":"142","strikedOffPrice":"MRP: 149","discount":"5% OFF","logo":"https://www.licious.in/img/default/express_delivery.svg","delivery":"Today in 90 min"},{"image":"https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_ntcjmw1avau/34/prod_display_image/1634368491.9493--2021-10-1612:44:51--905?format=webp","name":"Crispy Fish Fingers | Ready to Cook","discription":"Boneless pieces of basa, coated in panko crumbs.","netWeight":"Net wt: 250gms","grossWeight":"Pieces: 9-12","price":"224","strikedOffPrice":"MRP: 299","discount":"25% OFF","logo":"https://www.licious.in/img/default/express_delivery.svg","delivery":"Today in 90 min"}]
-
->>>>>>> 5314820e4988543df3784f5d83b8c3ebde63f650
 
 div2Data.map(function(elem)
 {
