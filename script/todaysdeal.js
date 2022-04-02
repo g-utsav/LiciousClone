@@ -5,6 +5,8 @@ var div2Data=
 
 {"image":"https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_avakgkv3mxo/34/prod_display_image/1634365724.2535--2021-10-1611:58:44--905?format=webp","name":"Hilsa (llish) Medium- Curry Cut With Head","discription":"Cleaned, Scaled, Curry Cuts, with Head","netWeight":"Net wt: 500gms","grossWeight":"Gross: 704gms","price":"1349","strikedOffPrice":"MRP: 4799","discount":"25% OFF","logo":"https://www.licious.in/img/default/express_delivery.svg","delivery":"Tomorrow 8 AM-10 AM"}]
 
+
+
 div2Data.map(function(elem)
 {
     var box=document.createElement("div");
@@ -53,6 +55,10 @@ div2Data.map(function(elem)
     var boxb4b=document.createElement("div")
     var btn=document.createElement("button");
     btn.innerText="ADD TO CART";
+    btn.addEventListener("click",function()
+    {
+        myfunction(elem)
+    })
     boxb4b.append(btn)
     boxb4b.setAttribute("class","boxb4b")
     
@@ -72,6 +78,13 @@ div2Data.map(function(elem)
 
 
 })
+var data=JSON.parse(localStorage.getItem("cartData")) || [];
+function myfunction(elem)
+{
+    data.push(elem);
+    localStorage.setItem("cartData",JSON.stringify(data))
+}
+
 var div2Data=
 [{"image":"https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_id9jjmp0h34/34/prod_display_image/1634297078.8474--2021-10-1516:54:38--905?format=webp","name":"Chicken Drumstick","discription":"Skinless, bone-in, juicy meat from the lower leg with au..","netWeight":"Net wt:500gms","grossWeight":"Gross: 666gms","price":"252","strikedOffPrice":" MRP: 265","discount":"5% OFF","logo":"https://www.licious.in/img/default/express_delivery.svg","delivery":"Today in 90 min"},
 
@@ -154,6 +167,10 @@ div2Data.map(function(elem)
     var boxb4b=document.createElement("div")
     var btn=document.createElement("button");
     btn.innerText="ADD TO CART";
+    btn.addEventListener("click",function()
+    {
+        myfunction(elem)
+    })
     boxb4b.append(btn)
     boxb4b.setAttribute("class","boxb4b")
     
@@ -173,3 +190,11 @@ div2Data.map(function(elem)
 
 
 })
+var data=JSON.parse(localStorage.getItem("cartData")) || [];
+function myfunction(elem)
+{
+    data.push(elem);
+    localStorage.setItem("cartData",JSON.stringify(data))
+}
+
+
