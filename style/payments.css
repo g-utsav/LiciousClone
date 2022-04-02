@@ -1,10 +1,4 @@
-*{
-    margin: none;
-    background: rgba(0,0,0, 0.6) url(https://asiatechjournal.com/wp-content/uploads/2021/07/Licious.png);
-    background-blend-mode: darken;
-}
-
-#container{
+/* #container{
     width: 50%;
     margin: auto;
 
@@ -19,7 +13,6 @@ input{
     padding: 8px;
     font-size: 24px;
     border-radius: 20px;
-    color: whitesmoke;
     border: 1px solid tomato;
 }
 
@@ -33,22 +26,82 @@ input:hover{
 }
 h1,h2{
     text-align: center;
-    font-size: 30px;
-    color: whitesmoke;
-    margin-top: 50px;
-    
+    font-size: 30px;    
 }
 #pay{
     width: 20%;
     border-radius: 10px;
     margin-left: 42%;
     margin-top: 8%;
-    color: yellow;
-    border-color: yellowgreen;
+  
     
 }
 #otpdiv{
     width: 50%;
     border-radius: 10px;
     margin-left: 30%;
+} */
+
+
+body{
+    font-family: sans-serif;
+    background-image: url(https://www.passionateinmarketing.com/wp-content/uploads/2021/01/LiciousSpread_Packaging_ElephantDesign1-696x461.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
 }
+
+.main{
+    
+    width: 800px;
+    height: 650px;
+    margin:auto;
+    margin-top: 100px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 40px white;
+}
+
+.header{
+    /* margin-top: 40px; */
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#container{
+    text-align: center;
+}
+
+input:nth-child(5){
+    background-color: orange;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+input:hover{
+    box-shadow: 2px 2px 5px #555;
+}
+
+input:nth-child(5):hover{
+    background-color: rgb(231, 64, 64);
+}
+
+
+
+#container input{
+    width: 400px;
+    height: 40px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+
+
