@@ -5,6 +5,7 @@ var div2Data=
 
 {"image":"https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_ggvktiq1iv5/34/prod_display_image/1634616386.4847--2021-10-1909:36:26--1818","name":"Crispy Chicken Poppers | Ready to Cook","discription":"Crumb-coated chicken meatballs with cheese & jalapenos","netWeight":" Net wt: 250gms ","grossWeight":" Pieces: 6","price":"169","strikedOffPrice":"199","discount":"15% OFF","logo":"https://www.licious.in/img/default/express_delivery.svg","delivery":"Today in 90 min"}
 
+
 ]
 
 
