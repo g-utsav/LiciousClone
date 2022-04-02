@@ -1,28 +1,51 @@
+*{
+    margin: none;
+    background: rgba(0,0,0, 0.6) url(https://asiatechjournal.com/wp-content/uploads/2021/07/Licious.png);
+    background-blend-mode: darken;
+}
+
 #container{
-    width: 30%;
+    width: 50%;
     margin: auto;
+
 }
 #form>div,#otpdiv{
     display: flex;
     justify-content: space-between;
 }
 input{
-    width: 100%;
+    width: 98%;
     margin-top: 6%;
     padding: 8px;
+    font-size: 24px;
+    border-radius: 20px;
+    color: whitesmoke;
+    border: 1px solid tomato;
 }
+
+input:hover{
+    border-color: purple;
+}
+
 #form>div>input{
     width: 50%;
     margin-left: 4%;
 }
 h1,h2{
     text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+    margin-top: 50px;
+    
 }
 #pay{
     width: 20%;
     border-radius: 10px;
     margin-left: 42%;
     margin-top: 8%;
+    color: yellow;
+    border-color: yellowgreen;
+    
 }
 #otpdiv{
     width: 50%;
