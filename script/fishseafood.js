@@ -1,10 +1,47 @@
 var div2Data=
+<<<<<<< HEAD
+[{image:"https:d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+name:"Crispy Chicken Wings | Ready To Cook",
+description:"Chicken wings marinated in spices &amp; coated in panko crumbs",
+weight:"Net wt: 225gms",
+pieces:"Pieces: 7-8",
+price:"99",
+mrp:"MRP: 149",
+discount:"17% OFF",
+logo:"https://www.licious.in/img/default/express_delivery.svg",
+time:"Today in 90 min"
+},
+{image:"https:d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+name:"Crispy Chicken Wings | Ready To Cook",
+description:"Chicken wings marinated in spices &amp; coated in panko crumbs",
+weight:"Net wt: 225gms",
+pieces:"Pieces: 7-8",
+price:"99",
+mrp:"MRP: 149",
+discount:"17% OFF",
+logo:"https://www.licious.in/img/default/express_delivery.svg",
+time:"Today in 90 min"
+},
+{image:"https:d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+name:"Crispy Chicken Wings | Ready To Cook",
+description:"Chicken wings marinated in spices &amp; coated in panko crumbs",
+weight:"Net wt: 225gms",
+pieces:"Pieces: 7-8",
+price:"99",
+mrp:"MRP: 149",
+discount:"17% OFF",
+logo:"https://www.licious.in/img/default/express_delivery.svg",
+time:"Today in 90 min"
+}
+]
+=======
 [{"image":"https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/278f2833-a6a3-ba1e-15e3-288b1a28ef5f/original/unnamed.png?format=webp","name":"Freshwater Prawns 40C- 60C (Chingri)- Cleaned & Deveined, No Tail","discription":"Freshwater prawns. De-shelled, cleaned, deveined, butt..","netWeight":"Net wt: 250gms","grossWeight":"Gross: 500gms","price":"395","strikedOffPrice":"MRP:395","discount":"0%OFF","logo":"https://www.licious.in/img/default/express_delivery.svg","delivery":"Today in 90 min"},
 
 {"image":"https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_6j4jhlmxsk1/2/prod_display_image/1611136779.9534--2021-01-2015:29:39--738?format=webp","name":"Rohu (Rui) Medium - Bengali Cut, No Head","discription":"Cleaned, medium-sized, freshwater, bony, unique tastin.","netWeight":"Net wt:500gms","grossWeight":"Gross: 900gms","price":"235","strikedOffPrice":"MRP:235","discount":"0%OFF","logo":"https://www.licious.in/img/default/express_delivery.svg","delivery":"Today in 90 min"},
 
 {"image":"https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/4dd5c1b9-fd46-b820-e940-d583953495c2/original/1598119504.5651--2020-08-2223_35_04--738.jpeg?format=webp","name":"Basa- Boneless Cubes","discription":"Relish the smooth, so ft texture of Indian Basa cubes in e...","netWeight":"Net wt: 400gms","grossWeight":"Gross: 1600gms","price":"359","strikedOffPrice":"MRP:359","discount":"0%OFF","logo":"https://www.licious.in/img/default/express_delivery.svg","delivery":"Today in 90 min"}]
 
+>>>>>>> 5314820e4988543df3784f5d83b8c3ebde63f650
 
 div2Data.map(function(elem)
 {
@@ -86,6 +123,53 @@ function myfunction(elem)
 
 
 var div2Data=
+<<<<<<< HEAD
+[{image:"https:d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+name:"Crispy Chicken Wings | Ready To Cook",
+description:"Chicken wings marinated in spices &amp; coated in panko crumbs",
+weight:"Net wt: 225gms",
+pieces:"Pieces: 7-8",
+price:"99",
+mrp:"MRP: 149",
+discount:"17% OFF",
+logo:"https://www.licious.in/img/default/express_delivery.svg",
+time:"Today in 90 min"
+},
+{image:"https:d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+name:"Crispy Chicken Wings | Ready To Cook",
+description:"Chicken wings marinated in spices &amp; coated in panko crumbs",
+weight:"Net wt: 225gms",
+pieces:"Pieces: 7-8",
+price:"99",
+mrp:"MRP: 149",
+discount:"17% OFF",
+logo:"https://www.licious.in/img/default/express_delivery.svg",
+time:"Today in 90 min"
+},
+{image:"https:d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+name:"Crispy Chicken Wings | Ready To Cook",
+description:"Chicken wings marinated in spices &amp; coated in panko crumbs",
+weight:"Net wt: 225gms",
+pieces:"Pieces: 7-8",
+price:"99",
+mrp:"MRP: 149",
+discount:"17% OFF",
+logo:"https://www.licious.in/img/default/express_delivery.svg",
+time:"Today in 90 min"
+},
+{image:"https:d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
+name:"Crispy Chicken Wings | Ready To Cook",
+description:"Chicken wings marinated in spices &amp; coated in panko crumbs",
+weight:"Net wt: 225gms",
+pieces:"Pieces: 7-8",
+price:"99",
+mrp:"MRP: 149",
+discount:"17% OFF",
+logo:"https://www.licious.in/img/default/express_delivery.svg",
+time:"Today in 90 min"
+}
+]
+=======
 [{"image":"https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_6j4jhlmzwle/34/prod_display_image/1634208748.7634--2021-10-1416:22:28--1818?format=webp","name":"Catla (Katla) Medium - Bengali Cut, No Head","discription":"Cleaned, medium-sized, freshwater, bony, unique tastin..","netWeight":"Net wt: 500gms","grossWeight":"Gross:961gms","price":"415","strikedOffPrice":"MRP:415","discount":"0%OFF","logo":"https://www.licious.in/img/default/express_delivery.svg","delivery":"Today in 90 min"},
 
 {"image":"https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/c1f88652-9e2b-5b04-bc76-8bf22df04172/original/1601861948.563--2020-10-0507_09_08--738.jpeg?format=webp","name":"Rohu (Rui) Small- Bengali Cut, No Head","discription":"Freshwater fish, small sized, cleaned & cut, without hea.","netWeight":"Net wt: 500gms","grossWeight":"Gross: 700gms","price":"175","strikedOffPrice":"MRP:175","discount":"0%OFF","logo":"https://www.licious.in/img/default/express_delivery.svg","delivery":"Today in 90 min"},
@@ -115,6 +199,7 @@ var div2Data=
 {"image":"https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/0932d4a4-a51f-1dff-65b3-78c3df11f487/original/1595937451.9118--2020-07-2817_27_31--738.jpeg?format=webp","name":"Sea Bass (Bhetki) Medium - Curry Cut","discription":"Curry cut of Sea Bass that is delicately textured with a su..","netWeight":"Net wt: 350gms","grossWeight":"Gross: 637gms","price":"469","strikedOffPrice":"MRP:469","discount":"0%OFF","logo":"https://www.licious.in/img/default/express_delivery.svg","delivery":"Today in 90 min"},
 
 {"image":"https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/a1f5f3e2-6c44-ec90-9d2a-c6d9b2718b37/original/Freshwater-Prawns-medium2.jpeg?format=webp","name":"Freshwater Prawns 40C-60C (Chingri) Large Pack-Cleaned & Deveined, No Tai","discription":"Freshwater prawns. De-shelled, cleaned, deveined, butt...","netWeight":"Net wt: 500gms","grossWeight":"Gross: 962gms","price":"765","strikedOffPrice":"MRP:765","discount":"0%OFF","logo":"https://www.licious.in/img/default/express_delivery.svg","delivery":"Today in 90 min"}]
+>>>>>>> 5314820e4988543df3784f5d83b8c3ebde63f650
 
 div2Data.map(function(elem)
 {

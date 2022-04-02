@@ -100,7 +100,7 @@ data.map(function(ele,index){
         reMapData(index)})
     
     var priceCart =document.createElement("div")
-    priceCart.innerText = `₹${ele.price}`
+    priceCart.innerText = `${ele.price}`
     
 
 
