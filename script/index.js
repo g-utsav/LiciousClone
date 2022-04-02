@@ -5,7 +5,7 @@ var bestSeller=[
         discription : "Bone-in chunky pieces of skinless meat including one I..." ,
         netWeight : "500" ,
         grossWeight : "526" ,
-        price : "131" ,
+        price : 131 ,
         strikedOffPrice : "145" ,
         discount : "10" ,
     },
@@ -462,7 +462,7 @@ exploreByCatagory = [
     },
     {
         image : "https://dao54xqhg9jfa.cloudfront.net/Category/7948e90c-5b27-abdc-c33c-29fc3ca485ea/original/1603646285.4662--2020-10-2522_48_05--738.jpeg?format=webp",
-        name : "Fish&"
+        name : "Fish&SeaFood"
     },
     {
         image : "https://s3-ap-southeast-1.amazonaws.com/licious/cat/4/cat_tile_img/1609086575.0106--2020-12-2721:59:35--738?format=webp",
