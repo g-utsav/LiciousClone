@@ -82,6 +82,10 @@ div2Data.map(function(elem)
     var boxb4b=document.createElement("div")
     var btn=document.createElement("button");
     btn.innerText="ADD TO CART";
+    btn.addEventListener("click",function()
+    {
+        myfunction(elem)
+    })
     boxb4b.append(btn)
     boxb4b.setAttribute("class","boxb4b")
     
@@ -100,6 +104,13 @@ div2Data.map(function(elem)
 
 
 })
+var data=JSON.parse(localStorage.getItem("cartData")) || [];
+function myfunction(elem)
+{
+    data.push(elem);
+    localStorage.setItem("cartData",JSON.stringify(data))
+}
+
 var div2Data=
 [{image:"https:d2407na1z3fc0t.cloudfront.net/prodDev/pr_15mko48p5uv/34/prod_display_image/1634559349.2388--2021-10-1817:45:49--1818",
 name:"Crispy Chicken Wings | Ready To Cook",
@@ -195,6 +206,10 @@ div2Data.map(function(elem)
     var boxb4b=document.createElement("div")
     var btn=document.createElement("button");
     btn.innerText="ADD TO CART";
+    btn.addEventListener("click",function()
+    {
+        myfunction(elem)
+    })
     boxb4b.append(btn)
     boxb4b.setAttribute("class","boxb4b")
     
@@ -214,3 +229,9 @@ div2Data.map(function(elem)
 
 
 })
+var data=JSON.parse(localStorage.getItem("cartData")) || [];
+function myfunction(elem)
+{
+    data.push(elem);
+    localStorage.setItem("cartData",JSON.stringify(data))
+}
