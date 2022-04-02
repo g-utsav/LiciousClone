@@ -5,7 +5,7 @@ var bestSeller=[
         discription : "Bone-in chunky pieces of skinless meat including one I..." ,
         netWeight : "500" ,
         grossWeight : "526" ,
-        price : 131 ,
+        price : "131" ,
         strikedOffPrice : "145" ,
         discount : "10" ,
     },
