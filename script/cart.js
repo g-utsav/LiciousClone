@@ -100,7 +100,7 @@ data.map(function(ele,index){
         reMapData(index)})
     
     var priceCart =document.createElement("div")
-    priceCart.innerText = `₹${ele.price}`
+    priceCart.innerText = `${ele.price}`
     
 
 
@@ -180,7 +180,7 @@ function closeCall(){
     projectCart.style.height = "0px"
     genData()
     displayCart(data,false)
-    window.location.reload()
+    // window.location.reload()
 
 
 }
