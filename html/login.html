@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Login and Rejestrasion Form Design</title>
+    <link rel="stylesheet" href="../style/login.css">
+    </head>
+    <body>
+        <div class="Login-page">
+        <div class="form">
+            <form class="Register-form">
+            <input type="text" placeholder="User Name"/ class="RegisterName">
+            <input type="password" placeholder="Password"/ class="RegisterPass">
+            <input type="text" placeholder="Email id"/ class="RegisterEmail">
+            <input type="number" placeholder="Mobile No"/ class="RegisterNumber">
+            <button  onclick="regform()">Create Account</button>
+            <!-- <input type="submit" value="Create Acount"> -->
+            <p class="massage">Already Rejestered? <a href="#">Login</a></p>
+            </form>
+
+            <form class="login-form">
+            <input type="text" placeholder="User name" class="formName"/>
+            <input type="password" placeholder="Password" class="formPass"/>
+            <button onclick="loginform()">Login</button>
+            <p class="massage">Not Registered?<a href="#">Register</a></p>
+
+        </div>
+        </div>
+
+        <script src='https://code.jquery.com/jquery-3.2.1.min.js
+        '></script>
+
+        <script>
+        $('.massage a').click(function(){
+        $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+        });    
+
+        </script>
+
+
+    </body>
+</html>
+
+<script src="../script/login.js"></script>
+
