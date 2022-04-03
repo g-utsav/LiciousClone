@@ -50,17 +50,21 @@ body{
     background: #43a047;
 }
 
-.form .message{
+.form .massage{
     margin: 15px 0 0;
     color: aliceblue;
     font-size: 12px;
 }
 
-.form .message a{
+.form .massage a{
     color: #4CAF50;
     text-decoration: none;
 }
 
 .form .register-form{
     display: none;
+}
+
+.massage{
+color: white;
 }
