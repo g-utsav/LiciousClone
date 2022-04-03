@@ -12,7 +12,7 @@
     background-color: white;
     width: 450px;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    height: 900px;
+    height: 100%;
     position: fixed!Important;
     top: 0px;
     right: 0px;
@@ -67,7 +67,7 @@
     margin: auto;
     /* border: solid; */
     text-align: center;
-    height: 70px;
+    height: 13%;
 }
 
 .cartSlide>div>div>div{
@@ -99,7 +99,7 @@
     width: 95%;
     margin: auto;
     border: solid;
-    height: 55%;
+    height: 65%;
     overflow: hidden;
     overflow-y: scroll;
 }
@@ -113,6 +113,7 @@
 #productDetailsCart{
     background-color: white;
    color: black;
+  height:27%;
    /* display: flex; */
    /* justify-content: space-around; */
 }
