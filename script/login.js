@@ -18,7 +18,7 @@ function regform(){
     console.log(obj)
     arr.push(obj)
     localStorage.setItem("userCredential",JSON.stringify(arr))
-    // alert("sucess")
+    alert("Sign Up Sucess Full!")
 
     usr.value = ""
     pass.value = ""
