@@ -273,6 +273,7 @@ function totalPriceToDisplay(){
     })
 
 if(Boolean(totalPrice)) totalPrice.innerText = `Total : ${sum}`
+localStorage.setItem("amountPayable",sum);
 
 }
 

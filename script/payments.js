@@ -1,6 +1,6 @@
 var amount = JSON.parse(localStorage.getItem("amountPayable")) || 0;
 
-document.querySelector("h2").innerText = `Items in Cart is ${amount[0]} and Total Amount is Rs ${amount[1]}`;
+document.querySelector("h2").innerText = `Total Amount is Rs ${amount}`;
 
 document.querySelector("#form").addEventListener("submit", formSubmit);
 
