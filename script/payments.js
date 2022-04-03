@@ -52,7 +52,7 @@ function formSubmit(){
         if(otp == "1234"){
             alert("Payment Sucessful!\nMoving To Home Page")
             localStorage.setItem("counter",0)
-            window.location.href="./index.html"
+            window.location.href="../index.html"
         }else{
             c++
             alert(`Try Again! ${c} of 3`);
@@ -62,7 +62,7 @@ function formSubmit(){
         if(c == 3){
             localStorage.setItem("counter",0)
             alert("Moving to Cart Payment Terminated\nToo many Tries")
-            window.location.href="./cart.html"
+            window.location.href="../index.html"
         }
     }
   
