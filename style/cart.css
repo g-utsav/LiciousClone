@@ -98,7 +98,7 @@
 .cartSliding{
     width: 95%;
     margin: auto;
-    border: solid;
+    border: 1px solid black;
     height: 65%;
     overflow: hidden;
     overflow-y: scroll;
