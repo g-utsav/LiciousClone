@@ -4,7 +4,7 @@
 Bengaluru, Karnataka, India. The company operates on a farm-to-fork model,
 owning the entire back-end supply chain and cold chain.This is a collaborative
 Project consisting 6 members.</p>
-<h2>This is a collaborative Project from Masai School in the Construct Week. We are 5 members of the team:</h2>
+<h2>This is a collaborative Project from Masai School in the Construct Week. We are 6 members of the team:</h2>
 <h4>TEAM MEMBERS</h4>
 
 <a href="https://github.com/g-utsav">Utsav Gupta</a>
