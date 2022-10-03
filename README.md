@@ -1,5 +1,5 @@
 <h1>Licious Clone</h1> 
-<a href="https://earnest-muffin-f6f57e.netlify.app/">Live Site</a>
+<a href="licious-clone-lc.netlify.app/">Live Site</a>
 <p>Cloned the Licious website which is India's first D2C Unicorn, headquartered in
 Bengaluru, Karnataka, India. The company operates on a farm-to-fork model,
 owning the entire back-end supply chain and cold chain.This is a collaborative
